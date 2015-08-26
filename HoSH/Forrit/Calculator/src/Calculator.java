@@ -1,25 +1,32 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
 /**
- * Created by kristofer on 8/19/15.
+ * Created by kristofer on 8/25/15.
  *
  * @author Kristofer R.
  * @version 1
  */
 public class Calculator {
-    // Evaluates RPN expressions and returns results
-    public int evalRPN(String[] tokens) {
-        // Read tokens and decide which operation to perform
-        switch (tokens[2]) {
-            case "+":
-                return Integer.parseInt(tokens[0]) + Integer.parseInt(tokens[1]);
-            case "-":
-                return Integer.parseInt(tokens[0]) - Integer.parseInt(tokens[1]);
-            case "*":
-                return Integer.parseInt(tokens[0]) * Integer.parseInt(tokens[1]);
-            case "/":
-                return Integer.parseInt(tokens[0]) / Integer.parseInt(tokens[1]);
-            default:
-                System.out.println("Something went wrong, try again.");
-                return 0;
+    public static void main(String[] args) {
+        String inp = "";
+        Stack<String> stack = new Stack<String>();
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        inp = br.readLine();
+        stack.push(inp)
+        while(!stack.empty()) {
+
+            try {
+                inp = br.readLine();
+            } catch (Exception ex) {
+                System.out.println("Error: " + ex.getMessage());
+                System.out.println("Stack trace: " + ex.getStackTrace());
+            }
+            stack.push(inp);
         }
+
+        System.out.println(inp);
     }
 }
