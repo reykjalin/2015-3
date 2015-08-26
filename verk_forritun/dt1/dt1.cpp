@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     // Verk 1
-    /*int a,b,c;
+    int a,b,c;
     bool match = false;
     cin >> a >> b >> c;
 
@@ -30,8 +30,8 @@ int main() {
     }
     if(!match) {
         cout << "no match" << endl;
-    }*/
-
+    }
+    /*
     // Verk 2
 
     int sec, min, hrs, days, yrs;
@@ -87,6 +87,6 @@ int main() {
             cout << " seconds" << endl;
         }
     }
-
+*/
     return 0;
 }
