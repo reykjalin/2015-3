@@ -8,13 +8,15 @@ import java.util.Date;
  * Created by kristofer on 8/26/15.
  */
 public class Employee extends Person {
+    protected double salary;
     protected Date dateOfHire;
     // DateFormat used to change date format
     protected DateFormat formatter = new SimpleDateFormat("dd.MM.yyyy");
 
-    public Employee(String name, Date dateOfBirth, Date dateOfHire) {
+    public Employee(String name, Date dateOfBirth, Date dateOfHire, double salary) {
         super(name, dateOfBirth);
         this.dateOfHire = dateOfHire;
+        this.salary = salary;
     }
 
     public String getDateOfHire() {
@@ -29,5 +31,15 @@ public class Employee extends Person {
     @Override
     public String toString() {
         return "Employee: " + getName() + ", hired " + getDateOfHire();
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    public double getSalary() {
+        return this.salary;
+
     }
 }

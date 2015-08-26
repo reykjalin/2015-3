@@ -8,8 +8,8 @@ import java.util.Date;
 public class Manager extends Employee {
     protected String title;
 
-    public Manager(String name, Date dateOfBirth, Date dateOfHire, String title) {
-        super(name, dateOfBirth, dateOfHire);
+    public Manager(String name, Date dateOfBirth, Date dateOfHire, String title, double salary) {
+        super(name, dateOfBirth, dateOfHire, salary);
         this.title = title;
     }
 
