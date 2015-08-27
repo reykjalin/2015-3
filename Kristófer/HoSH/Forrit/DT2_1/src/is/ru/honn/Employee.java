@@ -1,5 +1,7 @@
 package is.ru.honn;
 
+import com.sun.xml.internal.ws.api.pipe.FiberContextSwitchInterceptor;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +9,7 @@ import java.util.Date;
 /**
  * Created by kristofer on 8/26/15.
  */
-public class Employee extends Person {
+public class Employee extends Person implements Worktime {
     protected double salary;
     protected Date dateOfHire;
     // DateFormat used to change date format
@@ -41,5 +43,10 @@ public class Employee extends Person {
     public double getSalary() {
         return this.salary;
 
+    }
+
+    @Override
+    public int getWorkDays(Date now) {
+        return (int)((now.getTime() - dateOfHire.getTime()) / 86400000);
     }
 }

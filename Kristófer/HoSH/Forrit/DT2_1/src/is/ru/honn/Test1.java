@@ -37,7 +37,8 @@ public class Test1 {
 
         for(Object aStaff : staff) {
             Person p = (Person) aStaff;
-            System.out.println(p + ": " + p.getSalary());
+            Worktime w = (Worktime) aStaff;
+            System.out.println(p + ": " + w.getWorkDays(new Date()));
         }
     }
 }
