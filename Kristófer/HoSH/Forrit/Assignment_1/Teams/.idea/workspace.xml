@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ceab3a4-854f-4d27-966d-d3c29b667f9a" name="Default" comment="" />
-    <ignored path="JsonExample.iws" />
+    <list default="true" id="6f264af7-7fda-43bb-af75-4cf9e4c94fe3" name="Default" comment="" />
+    <ignored path="Teams.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,15 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/JsonExample$JsonExample.coverage" NAME="JsonExample Coverage Results" MODIFIED="1440712775768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="JsonExample" />
+    <favorites_list name="Teams" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -31,30 +28,76 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+      <file leaf-file-name="ClientRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestParseURL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestParseURL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.json">
+      <file leaf-file-name="RequestException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="League.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/League.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6415094">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teams.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teams.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -78,8 +121,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/test.json" />
-        <option value="$PROJECT_DIR$/src/main/java/JsonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestParseFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/League.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestParseURL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/json/League.java" />
       </list>
     </option>
   </component>
@@ -130,34 +178,32 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -167,11 +213,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -185,11 +231,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -205,19 +251,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.JsonExample">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="is.ru.honn.json" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestParseURL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -410,28 +497,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -540,9 +605,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="JsonExample" type="Application" factoryName="Application">
+    <configuration default="false" name="TestParseFile" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JsonExample" />
+      <option name="MAIN_CLASS_NAME" value="TestParseFile" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -551,35 +616,28 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JsonExample" />
+      <module name="Teams" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="JsonExample" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration default="false" name="TestParseURL" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestParseURL" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Teams" />
+      <envs />
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.JsonExample" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.JsonExample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestParseFile" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestParseURL" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -593,18 +651,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ceab3a4-854f-4d27-966d-d3c29b667f9a" name="Default" comment="" />
-      <created>1440598359116</created>
+      <changelist id="6f264af7-7fda-43bb-af75-4cf9e4c94fe3" name="Default" comment="" />
+      <created>1440899973056</created>
       <option name="number" value="Default" />
-      <updated>1440598359116</updated>
-      <workItem from="1440598360338" duration="1579000" />
-      <workItem from="1440712295191" duration="957000" />
-      <workItem from="1440872704809" duration="12000" />
+      <updated>1440899973056</updated>
+      <workItem from="1440899974226" duration="156000" />
+      <workItem from="1440900144166" duration="115000" />
+      <workItem from="1440900270489" duration="800000" />
+      <workItem from="1440901105876" duration="227000" />
+      <workItem from="1440901356606" duration="4348000" />
+      <workItem from="1440905807569" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2548000" />
+    <option name="totallyTimeSpent" value="5808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1080" extended-state="6" />
@@ -613,13 +674,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -629,21 +691,26 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -654,26 +721,64 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestParseURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/League.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/teams.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -681,26 +786,51 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestParseFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/teams.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -708,26 +838,166 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestParseFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestParseFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45714286">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestParseURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/RequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/TeamParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/json/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6415094">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

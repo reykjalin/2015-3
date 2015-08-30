@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ceab3a4-854f-4d27-966d-d3c29b667f9a" name="Default" comment="" />
-    <ignored path="JsonExample.iws" />
+    <list default="true" id="9df47fd6-c428-4f95-b5fc-5be78e6cf394" name="Default" comment="" />
+    <ignored path="Teiknir.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,46 +15,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/JsonExample$JsonExample.coverage" NAME="JsonExample Coverage Results" MODIFIED="1440712775768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="JsonExample" />
+    <favorites_list name="Teiknir" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Teiknir.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.json">
+      <file leaf-file-name="JsonConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33962265">
+              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileLoadException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -65,6 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,8 +100,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/test.json" />
-        <option value="$PROJECT_DIR$/src/main/java/JsonExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/TAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java" />
       </list>
     </option>
   </component>
@@ -130,48 +164,56 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -185,11 +227,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JsonExample" />
+              <option name="myItemId" value="Teiknir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -204,6 +246,40 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teiknir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teiknir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teiknir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teiknir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shapes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -212,12 +288,26 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JsonExample" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.JsonExample">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="is.ru.honn.teiknir.json" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Teiknir">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -410,28 +500,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -540,9 +608,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="JsonExample" type="Application" factoryName="Application">
+    <configuration default="false" name="Teiknir" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JsonExample" />
+      <option name="MAIN_CLASS_NAME" value="is.ru.honn.teiknir.Teiknir" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -551,35 +619,12 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JsonExample" />
+      <module name="Teiknir" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="JsonExample" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.JsonExample" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.JsonExample" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Teiknir" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -588,23 +633,28 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ceab3a4-854f-4d27-966d-d3c29b667f9a" name="Default" comment="" />
-      <created>1440598359116</created>
+      <changelist id="9df47fd6-c428-4f95-b5fc-5be78e6cf394" name="Default" comment="" />
+      <created>1440872209138</created>
       <option name="number" value="Default" />
-      <updated>1440598359116</updated>
-      <workItem from="1440598360338" duration="1579000" />
-      <workItem from="1440712295191" duration="957000" />
-      <workItem from="1440872704809" duration="12000" />
+      <updated>1440872209138</updated>
+      <workItem from="1440872212008" duration="492000" />
+      <workItem from="1440872717655" duration="7210000" />
+      <workItem from="1440879950115" duration="3287000" />
+      <workItem from="1440886726308" duration="941000" />
+      <workItem from="1440888088744" duration="3037000" />
+      <workItem from="1440891135013" duration="5214000" />
+      <workItem from="1440897176797" duration="1608000" />
+      <workItem from="1440900131701" duration="12000" />
+      <workItem from="1440900259727" duration="10000" />
+      <workItem from="1440901071309" duration="34000" />
+      <workItem from="1440901333532" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2548000" />
+    <option name="totallyTimeSpent" value="21867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1080" extended-state="6" />
@@ -617,32 +667,36 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26144457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -651,56 +705,223 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/page.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -713,21 +934,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6857143">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54285717">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/shapes/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37142858">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/Teiknir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/FileLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/is/ru/honn/teiknir/json/JsonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33962265">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
