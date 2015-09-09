@@ -12,13 +12,26 @@ import org.json.simple.JSONValue;
 import java.awt.*;
 
 /**
+ * Contains information on what to do with text from .json file
+ *
  * Created by kristofer on 8/29/15.
+ *
+ * @author Kristofer R.
+ * @version 1
  */
 public class JsonConverter {
+    /**
+     * Enum used for switch case in function parseJson
+     */
     enum ShapeNames{
         Rectangle, Circle, Line, Text;
     }
 
+    /**
+     * Parses text from a .json file and draws shape according to specification in the file.
+     * @param json Text from .json file
+     * @return Page containing shapes drawn according to .json file
+     */
     public Page parseJson(String json) {
         // Initialize Page object
         Page page = new Page();

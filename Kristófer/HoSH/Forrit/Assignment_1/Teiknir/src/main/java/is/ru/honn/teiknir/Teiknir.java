@@ -12,14 +12,21 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 /**
+ * Stores information on Teiknir object and relevant methods. Used to draw shapes on a JFrame.
+ *
  * Created by kristofer on 8/29/15.
+ *
+ * @author Kristofer R.
+ * @version 1
  */
 public class Teiknir extends JPanel implements KeyListener {
     private Page page = new Page();
     // 'index' used to keep track of which shape is active
     private int index = 0;
 
-    // Default constructor
+    /**
+     * Default constructor. Creates some default shapes to draw. Sets itself as focusable and adds a KeyListener
+     */
     public Teiknir() {
         page.add(new Rectangle(10, 10, 100, 100, Color.blue));
         page.add(new Circle(200, 200, 100, 100, Color.red));
@@ -28,7 +35,12 @@ public class Teiknir extends JPanel implements KeyListener {
         setFocusable(true);
         addKeyListener(this);
     }
-    // Constructor takes args as parameter
+
+    /**
+     * Constructor takes program arguments as a parameter, reads a filename from program arguments and draws shapes
+     * according to instructions in file
+     * @param args Program arguments
+     */
     public Teiknir(String[] args) {
         // Load text from json file
         FileLoader loader = new FileLoader();
@@ -36,8 +48,8 @@ public class Teiknir extends JPanel implements KeyListener {
         try {
             content = loader.loadFileName(args[0]);
         } catch (FileLoadException e) {
-            e.getMessage();
-            System.exit(-1);
+            System.out.println(e.getMessage());
+            System.exit(1);
         }
         // 'conv' used to parse json file text
         JsonConverter conv = new JsonConverter();
@@ -48,6 +60,10 @@ public class Teiknir extends JPanel implements KeyListener {
         addKeyListener(this);
     }
 
+    /**
+     * Main function of program. Draws shapes on a JFrame.
+     * @param args Program arguments
+     */
     public static void main(String[] args) {
         JFrame f = new JFrame();
 
@@ -65,6 +81,10 @@ public class Teiknir extends JPanel implements KeyListener {
         f.setVisible(true);
     }
 
+    /**
+     * Overrides paint() function from JPanel. Background set white.
+     * @param g
+     */
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -72,10 +92,18 @@ public class Teiknir extends JPanel implements KeyListener {
         page.paint(g);
     }
 
+    /**
+     * Function not used. "Implemented" because of KeyListener
+     * @param e Information from keyboard
+     */
     public void keyTyped(KeyEvent e) {
         // Not used
     }
 
+    /**
+     * Implemented for KeyListener. Checks keystrokes and decides how to move active shape.
+     * @param e Information from keyboard
+     */
     public void keyPressed(KeyEvent e) {
         // Move objects based on key presses
         switch (e.getKeyCode()) {
@@ -101,6 +129,10 @@ public class Teiknir extends JPanel implements KeyListener {
         repaint();
     }
 
+    /**
+     * Function not used. "Implemented" because of KeyListener
+     * @param e Information from keyboard
+     */
     public void keyReleased(KeyEvent e) {
         // Not used
     }

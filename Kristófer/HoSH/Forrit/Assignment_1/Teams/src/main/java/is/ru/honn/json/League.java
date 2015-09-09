@@ -1,38 +1,42 @@
 package is.ru.honn.json;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
 /**
- * Created by kristofer on 8/30/15.
+ * Stores information about a league. Stores information about league name and this leagues' season.
+ *
+ * @author Kristofer R.
+ * @version 1
  */
 public class League {
-    private String name, season;
-    JSONArray teams;
+    private String name;
+    private Season season;
 
-    public League(String name, String season, JSONArray teams) {
+    /**
+     * Constructor initializes name and season variables
+     * @param name Name of the league
+     * @param season This leagues' season
+     */
+    public League(String name, Season season) {
         this.name = name;
         this.season = season;
-        this.teams = teams;
     }
 
+    /**
+     * Override of the toString function
+     * @return League name, season, team names, team abbreviations, team venues and the teams' home city
+     */
     @Override
     public String toString() {
-        String output, tname, tabb, tvenue, tcity;
+        String output;
+        // Put together 'output' string
         output = "League: " + name + "\n";
         output += "Season: " + season + "\n";
+        // "%1$-26s%2$-5s%3$-26s%4$-1s\n" is the format of the string
         output += String.format("%1$-26s%2$-5s%3$-26s%4$-1s\n", "Team Name", "Abb", "Venue", "City");
         output += "------------------------------------------------------------------------\n";
-        for (int i = 0; i < teams.size(); i++) {
-            JSONObject team = (JSONObject) teams.get(i);
-            JSONObject venue = (JSONObject) team.get("venue");
-            tname = team.get("displayName").toString();
-            tabb = team.get("abbreviation").toString();
-            tvenue = venue.get("name").toString();
-            tcity = venue.get("city").toString();
-            String[] columns = {tname, tabb, tvenue, tcity};
-
-            output += String.format("%1$-26s%2$-5s%3$-26s%4$-1s\n", tname, tabb, tvenue, tcity);
+        // Add, in the following order, team name, abbreviation, venue and city to 'output'
+        for (int i = 0; i < season.getTeams().size(); i++) {
+            output += String.format("%1$-26s%2$-5s%3$-26s%4$-1s\n", season.getTeam(i), season.getTeam(i).getAbb(),
+                    season.getTeam(i).getVenue(), season.getTeam(i).getVenue().getLocation());
         }
         return output;
     }

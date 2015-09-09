@@ -1,17 +1,28 @@
 package is.ru.honn.json;
 
 /**
- * Created by kristofer on 8/30/15.
+ * Custom exception class made to better understand caught exceptions
+ *
+ * @author Kristofer R.
+ * @version 1
  */
 public class RequestException extends Exception {
-    private String title;
+    private String message;
 
-    public RequestException(String title) {
-        this.title = title;
+    /**
+     * Initializes message variable
+     * @param message
+     */
+    public RequestException(String message) {
+        this.message = message;
     }
 
+    /**
+     * Override getMessage to also show stack trace.
+     * @return String containing a custom message including a stack trace.
+     */
     @Override
     public String getMessage() {
-        return title + ":\n" + getStackTrace();
+        return message + "\n" + getStackTrace();
     }
 }
