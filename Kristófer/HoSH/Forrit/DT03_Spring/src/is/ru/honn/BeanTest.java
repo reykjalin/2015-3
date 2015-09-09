@@ -10,6 +10,7 @@ public class BeanTest {
     public static void main(String[] args)
     {
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring-config.xml");
-
+        Person elvis = (Person) context.getBean("person");
+        System.out.println(elvis);
     }
 }

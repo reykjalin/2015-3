@@ -3,13 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       <bean id="person" class="is.ru.honn.Person">
-       <property name="name">
-              <value>Elvis Presley</value>
-       </property>
-       <property name="email">
-              <value>elvis@graceland.com</value>
-       </property>
+       <bean id="game" class="is.ru.honn.game.tictactoe.TicTacToeGame">
+              <property name="playersCount">
+                     <value>5</value>
+              </property>
        </bean>
 
 </beans>
