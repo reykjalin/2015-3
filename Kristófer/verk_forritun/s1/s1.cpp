@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Yfirlýsing falla
 string getFname();
 void openFile(ifstream& inp, string fname);
 int nrLines(ifstream& inp);
@@ -26,6 +27,7 @@ string getFname() {
 	cin >> fname;
 	return fname;
 }
+
 void openFile(ifstream& inp, string fname) {
 	inp.open(fname.c_str());
 	if(inp.fail()) {
@@ -37,6 +39,7 @@ void openFile(ifstream& inp, string fname) {
 int nrLines(ifstream& inp) {
 	string line;
 	int counter = 0;
+	// Lykkja labbar gegnum línur og telur
 	while(getline(inp, line)) {
 		counter++;
 	}
@@ -46,6 +49,7 @@ int nrLines(ifstream& inp) {
 int nrWords(ifstream& inp) {
 	string word;
 	int counter = 0;
+	// Lykkja tekur inn öll orð og telur
 	while(inp >> word) {
 		counter++;
 	}
@@ -55,6 +59,7 @@ int nrWords(ifstream& inp) {
 int nrChars(ifstream& inp) {
 	char c;
 	int counter = 0;
+	// Lykkja tekur inn öll tákn og telur
 	while(inp.get(c)) {
 		counter++;
 	}
