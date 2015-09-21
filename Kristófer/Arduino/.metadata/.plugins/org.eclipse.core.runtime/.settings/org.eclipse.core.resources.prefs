@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+pathvariable.ArduinoLibPath=/home/kristofer/Downloads/arduino-1.6.5-r5/libraries
+pathvariable.ArduinoPath=/home/kristofer/Downloads/arduino-1.6.5-r5
+pathvariable.ArduinoPivateLibPath=/home/kristofer/Arduino/libraries
+pathvariable.ArduinoPrivateLibPath=/home/kristofer/Arduino/libraries
+version=1

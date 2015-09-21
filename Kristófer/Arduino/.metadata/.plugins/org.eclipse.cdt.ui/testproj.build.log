@@ -1,0 +1,44 @@
+18:01:05 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               402   8388864
+.text              9794         0
+.bss                170   8389266
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70531         0
+.debug_abbrev      6704         0
+.debug_line        8378         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27333         0
+.debug_ranges      1480         0
+Total            138778
+
+
+Finished building target: testproj
+ 
+
+18:01:05 Build Finished (took 117ms)
+

@@ -1,0 +1,17 @@
+/*
+ * Morse.h
+ *
+ *  Created on: Sep 18, 2015
+ *      Author: kristofer
+ */
+
+#ifndef MORSE_H_
+#define MORSE_H_
+
+class Morse {
+public:
+	Morse();
+	virtual ~Morse();
+};
+
+#endif /* MORSE_H_ */

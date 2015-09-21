@@ -1,0 +1,44 @@
+22:16:14 **** Incremental Build of configuration Release for project testproject ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release" -lm
+Finished building: testproject.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.eep"
+Finished building: testproject.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.hex"
+Finished building: testproject.hex
+ 
+Building target: testproject
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproject/Release/testproject.elf  :
+section            size      addr
+.data               282   8388864
+.text              5864         0
+.bss                172   8389146
+.comment             17         0
+.debug_aranges     1448         0
+.debug_info       54155         0
+.debug_abbrev      6736         0
+.debug_line        8044         0
+.debug_frame       4868         0
+.debug_str         7792         0
+.debug_loc        27369         0
+.debug_ranges      1496         0
+Total            118243
+
+
+Finished building target: testproject
+ 
+
+22:16:14 Build Finished (took 113ms)
+

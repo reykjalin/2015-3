@@ -1,0 +1,14 @@
+/*
+ * MorseNode.h
+ *
+ *  Created on: Sep 21, 2015
+ *      Author: root
+ */
+
+#ifndef MORSENODE_H_
+#define MORSENODE_H_
+
+class MorseNode {
+};
+
+#endif /* MORSENODE_H_ */
