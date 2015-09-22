@@ -22,10 +22,9 @@ void loop()
 	 word += tree.getData("....");
 	 word += tree.getData(".");
 	 word += tree.getData(".-..");
-	 Serial.println("getdata3 finished.");
 	 word += tree.getData(".-..");
 	 word += tree.getData("---");
-	 word += " ";
+	 word += "";
 	 word += tree.getData(".--");
 	 word += tree.getData("---");
 	 word += tree.getData(".-.");

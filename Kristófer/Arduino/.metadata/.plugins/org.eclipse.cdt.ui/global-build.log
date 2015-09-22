@@ -3068,3 +3068,1527 @@ Total            138778
 
 Finished building target: testproj
  
+20:27:50 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+../MorseTree.cpp: In member function 'String MorseTree::getData(NodePtr, String)':
+../MorseTree.cpp:321:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../MorseTree.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/CDC.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/CDC.cpp.d" -MT"arduino/CDC.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/CDC.cpp"  -o  "arduino/CDC.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/CDC.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HID.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HID.cpp.d" -MT"arduino/HID.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HID.cpp"  -o  "arduino/HID.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HID.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HardwareSerial.cpp.d" -MT"arduino/HardwareSerial.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp"  -o  "arduino/HardwareSerial.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HardwareSerial0.cpp.d" -MT"arduino/HardwareSerial0.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp"  -o  "arduino/HardwareSerial0.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HardwareSerial1.cpp.d" -MT"arduino/HardwareSerial1.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp"  -o  "arduino/HardwareSerial1.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HardwareSerial2.cpp.d" -MT"arduino/HardwareSerial2.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp"  -o  "arduino/HardwareSerial2.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/HardwareSerial3.cpp.d" -MT"arduino/HardwareSerial3.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp"  -o  "arduino/HardwareSerial3.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/IPAddress.cpp.d" -MT"arduino/IPAddress.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/IPAddress.cpp"  -o  "arduino/IPAddress.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/Print.cpp.d" -MT"arduino/Print.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.cpp"  -o  "arduino/Print.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/Stream.cpp.d" -MT"arduino/Stream.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.cpp"  -o  "arduino/Stream.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Tone.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/Tone.cpp.d" -MT"arduino/Tone.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Tone.cpp"  -o  "arduino/Tone.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Tone.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/USBCore.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/USBCore.cpp.d" -MT"arduino/USBCore.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/USBCore.cpp"  -o  "arduino/USBCore.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/USBCore.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WInterrupts.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/WInterrupts.c.d" -MT"arduino/WInterrupts.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WInterrupts.c"  -o  "arduino/WInterrupts.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WInterrupts.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WMath.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/WMath.cpp.d" -MT"arduino/WMath.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WMath.cpp"  -o  "arduino/WMath.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WMath.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/WString.cpp.d" -MT"arduino/WString.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.cpp"  -o  "arduino/WString.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/abi.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/abi.cpp.d" -MT"arduino/abi.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/abi.cpp"  -o  "arduino/abi.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/abi.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/hooks.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/hooks.c.d" -MT"arduino/hooks.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/hooks.c"  -o  "arduino/hooks.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/hooks.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/main.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/main.cpp.d" -MT"arduino/main.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/main.cpp"  -o  "arduino/main.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/main.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/new.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/new.cpp.d" -MT"arduino/new.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/new.cpp"  -o  "arduino/new.cpp.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/new.cpp
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/wiring.c.d" -MT"arduino/wiring.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring.c"  -o  "arduino/wiring.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_analog.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/wiring_analog.c.d" -MT"arduino/wiring_analog.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_analog.c"  -o  "arduino/wiring_analog.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_analog.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_digital.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/wiring_digital.c.d" -MT"arduino/wiring_digital.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_digital.c"  -o  "arduino/wiring_digital.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_digital.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.S
+Starting S compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -x assembler-with-cpp -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -MMD -MP -MF"arduino/wiring_pulse.S.d" -MT"arduino/wiring_pulse.S.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.S"  -o  "arduino/wiring_pulse.S.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.S
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/wiring_pulse.c.d" -MT"arduino/wiring_pulse.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.c"  -o  "arduino/wiring_pulse.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+ 
+Building file: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_shift.c
+Starting C compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"arduino/wiring_shift.c.d" -MT"arduino/wiring_shift.c.o" -D__IN_ECLIPSE__=1 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_shift.c"  -o  "arduino/wiring_shift.c.o"   -Wall
+Finished building: /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_shift.c
+ 
+Starting archiver
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-ar" rcs  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar"    ./arduino/CDC.cpp.o ./arduino/HID.cpp.o ./arduino/HardwareSerial.cpp.o ./arduino/HardwareSerial0.cpp.o ./arduino/HardwareSerial1.cpp.o ./arduino/HardwareSerial2.cpp.o ./arduino/HardwareSerial3.cpp.o ./arduino/IPAddress.cpp.o ./arduino/Print.cpp.o ./arduino/Stream.cpp.o ./arduino/Tone.cpp.o ./arduino/USBCore.cpp.o ./arduino/WInterrupts.c.o ./arduino/WMath.cpp.o ./arduino/WString.cpp.o ./arduino/abi.cpp.o ./arduino/hooks.c.o ./arduino/main.cpp.o ./arduino/new.cpp.o ./arduino/wiring.c.o ./arduino/wiring_analog.c.o ./arduino/wiring_digital.c.o ./arduino/wiring_pulse.S.o ./arduino/wiring_pulse.c.o ./arduino/wiring_shift.c.o 
+Finished building: arduino.ar
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               402   8388864
+.text              9712         0
+.bss                170   8389266
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70380         0
+.debug_abbrev      6704         0
+.debug_line        8375         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27334         0
+.debug_ranges      1480         0
+Total            138543
+
+
+Finished building target: testproj
+ 
+20:27:59 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               402   8388864
+.text              9712         0
+.bss                170   8389266
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70380         0
+.debug_abbrev      6704         0
+.debug_line        8375         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27334         0
+.debug_ranges      1480         0
+Total            138543
+
+
+Finished building target: testproj
+ 
+20:29:41 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               374   8388864
+.text              9712         0
+.bss                170   8389238
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70380         0
+.debug_abbrev      6704         0
+.debug_line        8375         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27334         0
+.debug_ranges      1480         0
+Total            138515
+
+
+Finished building target: testproj
+ 
+20:31:38 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9726         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70501         0
+.debug_abbrev      6704         0
+.debug_line        8387         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27334         0
+.debug_ranges      1480         0
+Total            138642
+
+
+Finished building target: testproj
+ 
+20:31:59 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9726         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70501         0
+.debug_abbrev      6704         0
+.debug_line        8387         0
+.debug_frame       4852         0
+.debug_str         7685         0
+.debug_loc        27334         0
+.debug_ranges      1480         0
+Total            138642
+
+
+Finished building target: testproj
+ 
+20:33:12 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9572         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70215         0
+.debug_abbrev      6704         0
+.debug_line        8370         0
+.debug_frame       4836         0
+.debug_str         7685         0
+.debug_loc        27295         0
+.debug_ranges      1480         0
+Total            138130
+
+
+Finished building target: testproj
+ 
+20:35:20 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9492         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70040         0
+.debug_abbrev      6704         0
+.debug_line        8367         0
+.debug_frame       4832         0
+.debug_str         7685         0
+.debug_loc        27314         0
+.debug_ranges      1480         0
+Total            137887
+
+
+Finished building target: testproj
+ 
+20:38:25 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9440         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70022         0
+.debug_abbrev      6693         0
+.debug_line        8364         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            137782
+
+
+Finished building target: testproj
+ 
+20:47:24 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               354   8388864
+.text              9454         0
+.bss                170   8389218
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70022         0
+.debug_abbrev      6693         0
+.debug_line        8365         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            137797
+
+
+Finished building target: testproj
+ 
+20:49:44 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               372   8388864
+.text              9520         0
+.bss                170   8389236
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70207         0
+.debug_abbrev      6754         0
+.debug_line        8498         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138260
+
+
+Finished building target: testproj
+ 
+20:50:14 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               390   8388864
+.text              9546         0
+.bss                170   8389254
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70263         0
+.debug_abbrev      6754         0
+.debug_line        8500         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138362
+
+
+Finished building target: testproj
+ 
+20:51:15 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:52:14 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:52:59 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               362   8388864
+.text              9504         0
+.bss                170   8389226
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138205
+
+
+Finished building target: testproj
+ 
+20:53:30 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               362   8388864
+.text              9504         0
+.bss                170   8389226
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138205
+
+
+Finished building target: testproj
+ 
+20:53:49 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:54:17 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:54:39 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:55:02 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:55:19 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:55:48 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:56:17 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               366   8388864
+.text              9504         0
+.bss                170   8389230
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138209
+
+
+Finished building target: testproj
+ 
+20:56:40 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               360   8388864
+.text              9504         0
+.bss                170   8389224
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138203
+
+
+Finished building target: testproj
+ 
+20:57:02 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               368   8388864
+.text              9504         0
+.bss                170   8389232
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138211
+
+
+Finished building target: testproj
+ 
+20:58:26 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+../MorseTree.cpp: In constructor 'MorseTree::MorseTree()':
+../MorseTree.cpp:144:7: error: ambiguous overload for 'operator=' (operand types are 'String' and 'char')
+  data = '-';
+       ^
+../MorseTree.cpp:144:7: note: candidates are:
+In file included from /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Arduino.h:223:0,
+                 from ../MorseTree.h:4,
+                 from ../MorseTree.cpp:1:
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:86:11: note: String& String::operator=(const String&) <near match>
+  String & operator = (const String &rhs);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:86:11: note:   no known conversion for argument 1 from 'char' to 'const String&'
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:87:11: note: String& String::operator=(const char*) <near match>
+  String & operator = (const char *cstr);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:87:11: note:   no known conversion for argument 1 from 'char' to 'const char*'
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:88:11: note: String& String::operator=(const __FlashStringHelper*) <near match>
+  String & operator = (const __FlashStringHelper *str);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:88:11: note:   no known conversion for argument 1 from 'char' to 'const __FlashStringHelper*'
+make: *** [MorseTree.cpp.o] Error 1
+20:58:44 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+../MorseTree.cpp: In constructor 'MorseTree::MorseTree()':
+../MorseTree.cpp:144:7: error: ambiguous overload for 'operator=' (operand types are 'String' and 'char')
+  data = '-';
+       ^
+../MorseTree.cpp:144:7: note: candidates are:
+In file included from /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Arduino.h:223:0,
+                 from ../MorseTree.h:4,
+                 from ../MorseTree.cpp:1:
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:86:11: note: String& String::operator=(const String&) <near match>
+  String & operator = (const String &rhs);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:86:11: note:   no known conversion for argument 1 from 'char' to 'const String&'
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:87:11: note: String& String::operator=(const char*) <near match>
+  String & operator = (const char *cstr);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:87:11: note:   no known conversion for argument 1 from 'char' to 'const char*'
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:88:11: note: String& String::operator=(const __FlashStringHelper*) <near match>
+  String & operator = (const __FlashStringHelper *str);
+           ^
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.h:88:11: note:   no known conversion for argument 1 from 'char' to 'const __FlashStringHelper*'
+make: *** [MorseTree.cpp.o] Error 1
+20:58:58 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               362   8388864
+.text              9504         0
+.bss                170   8389226
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138205
+
+
+Finished building target: testproj
+ 
+20:59:14 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               362   8388864
+.text              9504         0
+.bss                170   8389226
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138205
+
+
+Finished building target: testproj
+ 
+21:00:31 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               368   8388864
+.text              9504         0
+.bss                170   8389232
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138211
+
+
+Finished building target: testproj
+ 
+21:01:19 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               366   8388864
+.text              9504         0
+.bss                170   8389230
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138209
+
+
+Finished building target: testproj
+ 
+21:02:07 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               366   8388864
+.text              9504         0
+.bss                170   8389230
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70179         0
+.debug_abbrev      6754         0
+.debug_line        8497         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138209
+
+
+Finished building target: testproj
+ 
+21:02:30 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               372   8388864
+.text              9520         0
+.bss                170   8389236
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70207         0
+.debug_abbrev      6754         0
+.debug_line        8498         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138260
+
+
+Finished building target: testproj
+ 
+21:03:24 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               372   8388864
+.text              9520         0
+.bss                170   8389236
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70207         0
+.debug_abbrev      6754         0
+.debug_line        8498         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138260
+
+
+Finished building target: testproj
+ 
+21:03:49 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               374   8388864
+.text              9520         0
+.bss                170   8389238
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70207         0
+.debug_abbrev      6754         0
+.debug_line        8498         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138262
+
+
+Finished building target: testproj
+ 
+21:04:21 **** Incremental Build of configuration Release for project testproj ****
+make all 
+Building file: ../MorseTree.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -MMD -MP -MF"MorseTree.cpp.d" -MT"MorseTree.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../MorseTree.cpp"  -o  "MorseTree.cpp.o"   -Wall
+Finished building: ../MorseTree.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"    ./.ino.cpp.o ./MorseTree.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release" -lm
+Finished building: testproj.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.eep"
+Finished building: testproj.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.hex"
+Finished building: testproj.hex
+ 
+Building target: testproj
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/testproj/Release/testproj.elf  :
+section            size      addr
+.data               372   8388864
+.text              9520         0
+.bss                170   8389236
+.comment             17         0
+.debug_aranges     1432         0
+.debug_info       70207         0
+.debug_abbrev      6754         0
+.debug_line        8498         0
+.debug_frame       4824         0
+.debug_str         7685         0
+.debug_loc        27301         0
+.debug_ranges      1480         0
+Total            138260
+
+
+Finished building target: testproj
+ 

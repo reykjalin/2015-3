@@ -1,7 +1,7 @@
 #ifndef MORSETREE_H_
 #define MORSETREE_H_
 
-#include <Arduino.h>
+//#include <Arduino.h>
 #include "MorseNode.h"
 
 class MorseTree {

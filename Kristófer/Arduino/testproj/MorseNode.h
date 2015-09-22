@@ -1,7 +1,11 @@
 #ifndef MORSENODE_H
 #define MORSENODE_H
 
-#include <Arduino.h>
+//#include <Arduino.h>
+#include <iostream>
+#include <String>
+
+using namespace std;
 
 const int SL = 6;
 

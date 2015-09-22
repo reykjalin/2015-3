@@ -133,25 +133,35 @@ MorseTree::MorseTree() {
 	key = ".--.-";
 	this->add(data, key, root);
 
-	data = "@";
+	data = "at";
 	key = ".--.-.";
 	this->add(data, key, root);
+
+ 	//Serial.println("at");
 
 	data = "J";
 	key = ".---";
 	this->add(data, key, root);
 
+	//Serial.println("J");
+
 	data = "-";
 	key = ".---.";
 	this->add(data, key, root);
+
+	//Serial.println("min");
 
 	data = "1";
 	key = ".----";
 	this->add(data, key, root);
 
+	//Serial.println("Added 1");
+
 	data = "\'";
 	key = ".----.";
 	this->add(data, key, root);
+
+	//Serial.println("Added \'");
 
 	data = "T";
 	key = "-";
@@ -304,35 +314,33 @@ String MorseTree::getData(NodePtr node, String key) {
 	} else if(node != NULL) {
 		if(key.length() == node->key.length()) {
 			return node->data;
-		} else if(key.charAt(node->key.length()) < node->key.charAt(node->key.length() - 1)) {
-			return getData(node->left, key);
-		} else if(key.charAt(node->key.length()) > node->key.charAt(node->key.length() - 1)) {
-			return getData(node->right, key);
 		} else {
 			if(key.charAt(node->key.length()) == '.') {
-				getData(node->right, key);
+				return getData(node->right, key);
 			} else if(key.charAt(node->key.length()) == '-') {
-				getData(node->left, key);
+				return getData(node->left, key);
 			}
 		}
-	} else {
-		return "Error, couldn't find letter.";
 	}
+	return "";
 }
 
 void MorseTree::add(String data, String key, NodePtr& node) {
-	if(node == root) {
-		if(key.charAt(0) == '.') {
-			add(data, key, node->right);
-		} else if(key.charAt(0) == '-') {
-			add(data, key, node->left);
-		}
-	}
 	if(node != NULL) {
-		if(key.charAt(node->key.length()) < node->key.charAt(node->key.length()-1)) {
-			add(data, key, node->left);
-		} else if(key.charAt(node->key.length()) > node->key.charAt(node->key.length()-1)) {
-			add(data, key, node->right);
+		if(node == root) {
+			if(key.charAt(0) == '.') {
+				add(data, key, node->right);
+			} else if(key.charAt(0) == '-') {
+				add(data, key, node->left);
+			}
+		} else {
+			if(key.length() != node->key.length()) {
+				if(key.charAt(node->key.length()) == '-') {
+					add(data, key, node->left);
+				} else if(key.charAt(node->key.length()) == '.') {
+					add(data, key, node->right);
+				}
+			}
 		}
 	} else {
 		node = new MorseNode(data, key);
