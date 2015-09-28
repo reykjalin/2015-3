@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab3/freyja10-roberto12-kristofert13-stefanv13/CycleLetters" key="OUTSIDE_LOCATION"/>
+	</section>
 	<section name="NewWizardAction">
 		<item value="it.baeyens.arduino.eclipse.NewArduinoSketchWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">

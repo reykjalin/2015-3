@@ -1,0 +1,74 @@
+#include "Morse.h"
+
+String setning = "Eitthvad";
+
+Morse dulkodi;
+
+int t = 100;
+int dotTime = t;
+int dashTime = 3 * t;
+int endwordTime = 7 * t;
+int endCharTime = 5 * t;
+int outPin = 6;
+int currentTime;
+
+void setup()
+{
+	pinMode(outPin, OUTPUT);
+	digitalWrite(outPin, LOW);
+}
+
+void loop()
+{
+	String morse;
+	for (int i = 0; i < setning.length(); i++)
+	{
+		if(setning[i] == ' ')
+		{
+			currentTime = millis();
+			while(millis() - currentTime < endwordTime)
+			{
+				digitalWrite(outPin, HIGH);
+			}
+			digitalWrite(outPin, LOW);
+		}
+		else
+		{
+			morse = dulkodi.getChars(setning[i]);
+			for (int j = 0; j < morse.length(); j++)
+		{
+			if (morse[j] == '.')
+			{
+				currentTime = millis();
+				while (millis() - currentTime < dotTime)
+				{
+					digitalWrite(outPin, HIGH);
+				}
+				digitalWrite(outPin, LOW);
+			}
+			else if (morse[jm] == '-')
+			{
+				currentTime = millis();
+				while (millis() - currentTime < dashTime)
+				{
+					digitalWrite(outPin, HIGH);
+				}
+				digitalWrite(outPin, LOW);
+			}
+			currentTime = millis();
+			while (millis() - currentTime < dotTime)
+			{
+				digitalWrite(outPin, HIGH);
+			}
+			digitalWrite(outPin, LOW);
+		}
+		currentTime = millis();
+		while (millis() - currentTime < endCharTime)
+		{
+			digitalWrite(outPin, HIGH);
+		}
+		digitalWrite(outPin, LOW);
+	}
+}
+
+}

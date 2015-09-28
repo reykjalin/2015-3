@@ -1,0 +1,228 @@
+/*
+ * --------------- SVN info ---------------------
+ * $Id: MorseElements.cpp 1162 2015-09-23 21:12:02Z kristofert13 $
+ * $HeadURL: https://repository.cs.ru.is/svn/t-411-mech-2015/submit/lab3/freyja10-roberto12-kristofert13-stefanv13/lab03/MorseElements.cpp $
+ * $LastChangedDate: 2015-09-23 21:12:02 +0000 (Wed, 23 Sep 2015) $
+ * $LastChangedRevision: 1162 $
+ * $LastChangedBy: kristofert13 $
+ * ----------------------------------------------
+ */
+
+#include "MorseElements.h"
+
+void MorseElements::initialize() {
+	pinMode(pin, INPUT);
+	currState = calWaitRise;
+	frstDlta = 0;
+}
+
+void MorseElements::startCalibration() {
+	Serial.println("Starting calibration");
+	morseElementsSM(calWaitRise, millis());
+}
+
+void MorseElements::setState(int state) {
+	currState = state;
+}
+int MorseElements::getState() {
+	return currState;
+}
+
+void MorseElements::setLstState(int state) {
+	lstState = state;
+}
+int MorseElements::getLstState() {
+	return lstState;
+}
+
+void MorseElements::setLstRiseTime(unsigned int time) {
+	lstRsTm = time;
+}
+unsigned int MorseElements::getLstRiseTime() {
+	return lstRsTm;
+}
+
+void MorseElements::setLstFallTime(unsigned int time) {
+	lstFlTm = time;
+}
+unsigned int MorseElements::getLstFallTime() {
+	return lstFlTm;
+}
+
+int MorseElements::chkMorseEvnts() {
+	// TODO: INITIALIZE 'noEvent', 'currentState', 'lastState', 'risingEdge', 'endOfCharacterFlag'
+	// 					'EOCDetected', 'endOfWordFlag', 'EOWDetected', 'charSpaceDetected'
+	//					'wordSpaceDeteced', 'fallingEdge', 'calCompletedFlag', 'calibrationCompleted',
+	//					'dotDetected', 'dashDetected'
+	if (getState() != getLstState()) {
+		int currentTime = millis();
+		if (getState() == getLstState()) {
+			// record current time as timeOfLastRise
+			// does this mean timeOfLastRise = millis()
+			// or currentTime = timeOfLastRise ??
+			setLstRiseTime(currentTime);
+			// Could I use timeOfLastRise in the function call instead of currentTime??
+			if (morseElementsSM(risingEdge, currentTime) == endOfCharacterFlag) {
+				morseElementsSM(EOCDetected, currentTime);
+				return charSpaceDetected;
+			}
+			else if (morseElementsSM(risingEdge, currentTime) == endOfWordFlag) {
+				morseElementsSM(EOWDetected, currentTime);
+				return wordSpaceDetected;
+			}
+		}
+		else {
+			setLstFallTime(currentTime);
+			if (morseElementsSM(fallingEdge, currentTime) == calCompletedFlag) {
+				morseElementsSM(calCompleted, currentTime);
+				return noEvent;
+			}
+			else if (morseElementsSM(fallingEdge, currentTime) == dotDetected) {
+				return dotDetected;
+			}
+			else if (morseElementsSM(fallingEdge, currentTime) == dashDetected) {
+				return dashDetected;
+			}
+		}
+	}
+	return noEvent;
+}
+
+int MorseElements::morseElementsSM(int evnt, int time) {
+	// currentEvent can be the following: risingEdge, fallingEdge, calibrationCompleted, EOCDetected, EOWDetected, buttonPressed
+	// return value can be: All flags
+
+	// TODO: INITIALIZE 'currentState', 'noFlag', 'risingEdge', 'currentTime', 'calWaitFall'
+	//					'calibrationCompleted', 'EOCWaitRise', 'fallingEdge', 'calWaitRise',
+	//					'EOCWaitFall', 'endOfCharacterFlag', 'endOfWordFlag', 'buttonPressed',
+	//					'waitForRise', 'EOCDetected', 'decodeWaitFail', 'decodeWaitRise'
+	// int nextState = getState();
+	// based on the value of current state, which can take 6 values, we do something, let's use switch
+	switch (getState()) {
+	case 1: // currentState = calWaitRise
+		Serial.println("Current state: calWaitRise");
+		if (evnt == risingEdge) {
+			setLstRiseTime(time);
+			// nextState = calWaitFall;
+		}
+		if (evnt == calCompleted) {
+			// nextState = EOCWaitRise;
+		}
+		break;
+	case 2: // currentState is calWaitFall
+		Serial.println("Current state: calWaitFall");
+		if (evnt == fallingEdge) {
+			setLstFallTime(time);
+			// nextState = calWaitRise;
+			if(testCalibration() == calCompleted) {
+				return calCompletedFlag;
+			}
+		}
+		break;
+	case 3: // currentState = EOCWaitRise
+		Serial.println("Current state: EOCWaitRise");
+		if (evnt == risingEdge) {
+			setLstRiseTime(time);
+			// nextState = EOCWaitFall;
+			// Some if function
+			int charSpaceVal = characterizeSpace();
+			if (charSpaceVal == endOfCharacterFlag || charSpaceVal == endOfWordFlag) {
+				return endOfCharacterFlag;
+			}
+		}
+		if (evnt == buttonPressed) {
+			// nextState = calWaitRise;
+			frstDlta = 0;
+		}
+		break;
+	case 4: // currentState = EOCWaitFall
+		Serial.println("Current state: EOCWaitFall");
+		if (evnt == fallingEdge) {
+			setLstFallTime(time);
+			// nextState = EOCWaitRise;
+		}
+		if (evnt == buttonPressed) {
+			// nextState = calWaitRise;
+			frstDlta = 0;
+		}
+		if (evnt == EOCDetected) {
+			// nextState = decodeWaitFall;
+		}
+		break;
+	case 5: // currentState = decodeWaitRise
+		Serial.println("Current state: decodeWaitRise");
+		if (evnt == risingEdge) {
+			setLstRiseTime(time);
+			// nextState = decodeWaitFall;
+			return characterizeSpace();
+		}
+		if (evnt == buttonPressed) {
+			// nextState = calWaitRise;
+			frstDlta = 0;
+		}
+		break;
+	case 6: // currentState = decodeWaitFall
+		Serial.println("Current state: decodeWaitFall");
+		if (evnt == fallingEdge) {
+			setLstFallTime(time);
+			// nextState = decodeWaitRise;
+			return characterizePulse();
+		}
+		if (evnt == buttonPressed) {
+			// nextState = calWaitRise;
+			frstDlta = 0;
+		}
+		break;
+	}
+	return noFlag;
+}
+
+int MorseElements::testCalibration() {
+	int scndDlta;
+	if (frstDlta == 0) {
+		frstDlta = getPulseWidth(); // lastPulseWidth is assuming this is the most recent puse width
+	}
+	else {
+		scndDlta = getPulseWidth();
+		if (100 * frstDlta / scndDlta <= 33) {
+			frstDlta = dotTime;
+			return calCompleted;
+		}
+		else if (100 * frstDlta / scndDlta >= 300) {
+			scndDlta = dotTime;
+			return calCompleted;
+		}
+		else { // prepare for next pulse
+			frstDlta = scndDlta;
+		}
+	}
+	return calInProgress;	
+}
+
+unsigned int MorseElements::getPulseWidth() {
+	return getLstRiseTime() - getLstFallTime();
+}
+
+int MorseElements::characterizeSpace() {
+	// TODO: INITIALIZE 'timeOfLastRise', 'timeOfLastFall', 'charTime', 'endOfCharacterFlag',
+	//					'wordTime', 'endOfWordFlag', 'badSpaceFlag'
+	if (getPulseWidth() == 5 * dotTime) { // charTime is not defined, pseudo code says "OK for dot"
+		return endOfCharacterFlag;
+	}
+	else if (getPulseWidth() == 7 * dotTime) { // dashTime is not defined, pseaudo code says "OK for dash"
+		return endOfWordFlag;
+	}
+	return badSpaceFlag;
+}
+
+int MorseElements::characterizePulse() {
+	// TODO: INITIALIZE 'timeOfLastFall', 'timeOfLastRise', 'dotTime', 'dotDetectedFlag', 'dashTime'
+	//					'dashDetectedFlag', 'badPulseFlag'
+	if (getPulseWidth() == dotTime) { // dotTime is not defined, pseudo code says "OK for dot"
+		return dotDetected;
+	}
+	else if (getPulseWidth() == 3 * dotTime) { // dashTime is not defined, pseaudo code says "OK for dash"
+		return dashDetected;
+	}
+	return badPulseFlag;
+}

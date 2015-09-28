@@ -1,0 +1,184 @@
+
+% This LaTeX was auto-generated from MATLAB code.
+% To make changes, update the MATLAB code and republish this document.
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{color}
+
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+    
+    
+\subsection*{Contents}
+
+\begin{itemize}
+\setlength{\itemsep}{-1ex}
+   \item SD3 - D1
+   \item SD3 - D2a
+   \item SD3 - 2b
+\end{itemize}
+
+
+\subsection*{SD3 - D1}
+
+\begin{verbatim}
+close all; clear all; clc;
+
+% K = 1
+num = [120 720];
+den = [1 16 28+100+120 120*6+200];
+t1 = tf(num, den)
+subplot(1,3,1)
+step(t1);
+stepinfo(t1)
+legend('K = 1')
+
+% K = 10
+num = [1200 7200];
+den = [1 16 1328 7400];
+t10 = tf(num, den)
+subplot(1,3,2)
+step(t10);
+stepinfo(t10)
+legend('K = 10')
+
+% K = 50
+num = [120*50 6*120*50];
+den = [1 16 100+28+120*50 200+6*120*50];
+t50 = tf(num, den)
+subplot(1,3,3)
+step(t50);
+stepinfo(t50)
+legend('K = 50')
+\end{verbatim}
+
+        \color{lightgray} \begin{verbatim}
+t1 =
+ 
+         120 s + 720
+  --------------------------
+  s^3 + 16 s^2 + 248 s + 920
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+        RiseTime: 0.1281
+    SettlingTime: 0.6321
+     SettlingMin: 0.7267
+     SettlingMax: 0.8713
+       Overshoot: 11.3331
+      Undershoot: 0
+            Peak: 0.8713
+        PeakTime: 0.2632
+
+
+t10 =
+ 
+         1200 s + 7200
+  ----------------------------
+  s^3 + 16 s^2 + 1328 s + 7400
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+        RiseTime: 0.0335
+    SettlingTime: 0.7336
+     SettlingMin: 0.5820
+     SettlingMax: 1.5570
+       Overshoot: 60.0202
+      Undershoot: 0
+            Peak: 1.5570
+        PeakTime: 0.0882
+
+
+t50 =
+ 
+         6000 s + 36000
+  -----------------------------
+  s^3 + 16 s^2 + 6128 s + 36200
+ 
+Continuous-time transfer function.
+
+
+ans = 
+
+        RiseTime: 0.0141
+    SettlingTime: 0.7715
+     SettlingMin: 0.3319
+     SettlingMax: 1.7972
+       Overshoot: 80.7223
+      Undershoot: 0
+            Peak: 1.7972
+        PeakTime: 0.0403
+
+\end{verbatim} \color{black}
+    
+\includegraphics [width=\linewidth]{SD3_01.eps}
+
+
+\subsection*{SD3 - D2a}
+
+\begin{verbatim}
+close all; clear all; clc;
+k1 = 4.6;
+%k1 = 4.57;
+num = [375*k1 75*k1];
+den = [1 40 375 375*k1 75*k1];
+
+%num = [375*k1 0];
+%den = [1 40 375 375*k1 0];
+
+sys = tf(num,den);
+damp(sys)
+figure(1)
+rlocus(sys)
+stepinfo(sys)
+\end{verbatim}
+
+        \color{lightgray} \begin{verbatim}                                                                       
+         Pole              Damping       Frequency      Time Constant  
+                                       (rad/seconds)      (seconds)    
+                                                                       
+ -2.09e-01                 1.00e+00       2.09e-01         4.78e+00    
+ -5.32e+00 + 5.31e+00i     7.07e-01       7.52e+00         1.88e-01    
+ -5.32e+00 - 5.31e+00i     7.07e-01       7.52e+00         1.88e-01    
+ -2.92e+01                 1.00e+00       2.92e+01         3.43e-02    
+
+ans = 
+
+        RiseTime: 0.2749
+    SettlingTime: 4.2600
+     SettlingMin: 0.9079
+     SettlingMax: 1.0861
+       Overshoot: 8.6050
+      Undershoot: 0
+            Peak: 1.0861
+        PeakTime: 0.6320
+
+\end{verbatim} \color{black}
+    
+\includegraphics [width=4in]{SD3_02.eps}
+
+
+\subsection*{SD3 - 2b}
+
+\begin{verbatim}
+stepinfo(sys);
+step(sys);
+\end{verbatim}
+
+\includegraphics [width=4in]{SD3_03.eps}
+
+
+
+\end{document}
+    

@@ -1,0 +1,24 @@
+/*
+ * Morse.h
+ *
+ * --------------- SVN info ---------------------
+ * $Id: Morse.h 1081 2015-09-22 18:27:25Z kristofert13 $
+ * $HeadURL: https://repository.cs.ru.is/svn/t-411-mech-2015/submit/lab3/freyja10-roberto12-kristofert13-stefanv13/lab03/Morse.h $
+ * $LastChangedDate: 2015-09-22 18:27:25 +0000 (Tue, 22 Sep 2015) $
+ * $LastChangedRevision: 1081 $
+ * $LastChangedBy: kristofert13 $
+ * ----------------------------------------------
+ */
+
+#ifndef MORSE_H_
+#define MORSE_H_
+
+#include <Arduino.h>
+
+class Morse {
+	private:
+		char morse[][8] = {"blabla", "blabla"};
+		char legalchars[] = "ABCD";
+};
+
+#endif /* MORSE_H_ */

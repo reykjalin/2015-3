@@ -1,0 +1,44 @@
+//The setup function is called once at startup of the sketch
+
+#include <Arduino.h>
+#include "Morse.h"
+Morse morse;
+
+int outPin = 10;
+int dot = 500;
+int dash = 3 * dot;
+int cspace = 5 * dot;
+int dspace = dot;
+int wspace = 7 * dot;
+
+
+void setup()
+{
+// Add your initialization code here
+	pinMode(outPin, OUTPUT);
+}
+
+// The loop function is called in an endless loop
+void loop()
+{
+//Add your repeated code here
+
+	for(int i = 0; i < 54; i++) {
+		char c = morse.getCharByIndex(i);
+		String mcode = morse.getMorse(c);
+		for(unsigned int j = 0; j < mcode.length(); j++) {
+			if(mcode.charAt(j) == '.') {
+				digitalWrite(outPin, HIGH);
+				delay(dot);
+			} else if(mcode.charAt(j) == '-') {
+				digitalWrite(outPin, HIGH);
+				delay(dash)
+			}
+			digitalWrite(outPin, LOW);
+			delay(dspace);
+		}
+		delay(cspace - dspace);
+	}
+	delay(wspace - dspace - cspace);
+
+}

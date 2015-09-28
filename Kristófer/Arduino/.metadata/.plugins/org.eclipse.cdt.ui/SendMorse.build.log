@@ -1,0 +1,27 @@
+13:43:17 **** Incremental Build of configuration Release for project SendMorse ****
+make all 
+Building target: SendMorse
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab3/freyja10-roberto12-kristofert13-stefanv13/SendMorse/Release/SendMorse.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab3/freyja10-roberto12-kristofert13-stefanv13/SendMorse/Release/SendMorse.elf  :
+section            size      addr
+.data               248   8388864
+.text              5272         0
+.bss                528   8389112
+.comment             17         0
+.debug_aranges     1488         0
+.debug_info       58560         0
+.debug_abbrev      7142         0
+.debug_line        8058         0
+.debug_frame       4952         0
+.debug_str         8211         0
+.debug_loc        29877         0
+.debug_ranges      1608         0
+Total            125961
+
+
+Finished building target: SendMorse
+ 
+
+13:43:17 Build Finished (took 123ms)
+

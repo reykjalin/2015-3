@@ -1,0 +1,19 @@
+//The setup function is called once at startup of the sketch
+
+#include <Arduino.h>
+#include <Morse.h>
+
+int outPin = 10;
+
+void setup()
+{
+// Add your initialization code here
+	pinMode(outPin, OUTPUT);
+}
+
+// The loop function is called in an endless loop
+void loop()
+{
+//Add your repeated code here
+
+}
