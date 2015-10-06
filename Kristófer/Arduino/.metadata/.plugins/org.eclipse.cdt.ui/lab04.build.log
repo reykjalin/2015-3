@@ -1,0 +1,27 @@
+15:43:47 **** Incremental Build of configuration Release for project lab04 ****
+make all 
+Building target: lab04
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04/Release/lab04.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04/Release/lab04.elf  :
+section            size      addr
+.data                82   8388864
+.text              7200         0
+.bss                385   8388946
+.comment             17         0
+.debug_aranges     2040         0
+.debug_info       64623         0
+.debug_abbrev     13528         0
+.debug_line       14351         0
+.debug_frame       6540         0
+.debug_str        13210         0
+.debug_loc        37724         0
+.debug_ranges      2032         0
+Total            161732
+
+
+Finished building target: lab04
+ 
+
+15:43:47 Build Finished (took 61ms)
+

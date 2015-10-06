@@ -1,0 +1,44 @@
+19:40:33 **** Incremental Build of configuration Release for project lab04_gyro ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/eightanaloginputs" -I"/home/kristofer/Arduino/libraries/MPU6050" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/kristofer/Arduino/libraries/I2Cdev" -I"/home/kristofer/Arduino/libraries/LiquidCrystal" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.elf"    ./.ino.cpp.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/LiquidCrystal/FastIO.cpp.o ./Libraries/LiquidCrystal/I2CIO.cpp.o ./Libraries/LiquidCrystal/LCD.cpp.o ./Libraries/LiquidCrystal/LiquidCrystal.cpp.o ./Libraries/LiquidCrystal/LiquidCrystal_I2C.cpp.o ./Libraries/LiquidCrystal/LiquidCrystal_SR.cpp.o ./Libraries/LiquidCrystal/LiquidCrystal_SR2W.cpp.o ./Libraries/LiquidCrystal/LiquidCrystal_SR3W.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   arduino.ar   "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/arduino.ar" "-L/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release" -lm
+Finished building: lab04_gyro.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.eep"
+Finished building: lab04_gyro.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.elf" "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.hex"
+Finished building: lab04_gyro.hex
+ 
+Building target: lab04_gyro
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/lab04_gyro/Release/lab04_gyro.elf  :
+section            size      addr
+.data               238   8388864
+.text              9794         0
+.bss                422   8389102
+.comment             17         0
+.debug_aranges     4368         0
+.debug_info      115969         0
+.debug_abbrev     15181         0
+.debug_line       21643         0
+.debug_frame      15420         0
+.debug_str        28914         0
+.debug_loc        80464         0
+.debug_ranges      4440         0
+Total            296870
+
+
+Finished building target: lab04_gyro
+ 
+
+19:40:33 Build Finished (took 221ms)
+

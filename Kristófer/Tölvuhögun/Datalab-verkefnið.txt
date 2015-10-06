@@ -1,0 +1,30 @@
+		
+
+		
+
+		lausn við fyrsta dæmi
+		
+		~(tilda) 0;
+		Gefið í tíma 
+
+		bitNor... nota de morgans á
+
+		leastBitPos... finna lægsta 1 og skila honum
+
+		sign. skila + eða - tölu... sign bitin skiptir máli hér.
+
+		anyEvenBits skila 0xA => 0
+				  1010
+				  0xE => 1
+			          1110
+
+		satMul2   margfalda allar tölur sem koma inn með 2.. en má ekki overflowa
+
+		rempwr2   modulus
+
+		isLess.. skila 1 ef x < y, annars 0
+
+		float_neg  meigum nota if, else.. taka töluna inn og skila - tölu... skila sign bitanum ?
+
+		float_twice   taka töluna inn og margfalda með 2.. 
+							
