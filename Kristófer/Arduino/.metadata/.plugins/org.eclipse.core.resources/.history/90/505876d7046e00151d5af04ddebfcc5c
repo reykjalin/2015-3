@@ -1,0 +1,19 @@
+//This is a automatic generated file
+//Please do not modify this file
+//If you touch this file your change will be overwritten during the next build
+//This file has been generated on 2015-10-08 21:34:02
+
+#include "Arduino.h"
+#include <LiquidCrystal.h>
+#include "Enums.h"
+void setup() ;
+void loop() ;
+void man_sm() ;
+void getPwd() ;
+void getInp() ;
+void auto_sm() ;
+void execCmd() ;
+void chkPwd() ;
+
+#include "lab_05.ino"
+

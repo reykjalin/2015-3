@@ -1,0 +1,14 @@
+/*
+ * Enums.h
+ *
+ *  Created on: Oct 8, 2015
+ *      Author: root
+ */
+
+#ifndef ENUMS_H_
+#define ENUMS_H_
+
+class Enums {
+};
+
+#endif /* ENUMS_H_ */

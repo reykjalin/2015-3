@@ -957,3 +957,563 @@ java.lang.Exception
 
 !ENTRY it.baeyens.arduino.core 2 0 2015-10-03 19:40:33.347
 !MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+!SESSION 2015-10-08 20:14:03.592 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:14:25.112
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:14:26.139
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 1 0 2015-10-08 20:15:30.373
+!MESSAGE The folder /root/.arduino15/packages does not contain any files.
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:15:57.804
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:15:58.367
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:15:58.676
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-10-08 20:15:59.809
+!MESSAGE Indexed 'lab_05' (25 sources, 53 headers) in 1.31 sec: 2,458 declarations; 5,504 references; 17 unresolved inclusions; 15 syntax errors; 129 unresolved names (1.6%)
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:16:15.001
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 4 0 2015-10-08 20:16:17.274
+!MESSAGE Serial port /dev/ttyUSB2 not found. Did you select the right one from the project properties -> Arduino -> Arduino?
+
+!ENTRY it.baeyens.arduino.core 1 0 2015-10-08 20:16:56.100
+!MESSAGE The folder /root/.arduino15/packages does not contain any files.
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:16:59.087
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:16:59.109
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:00.069
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:00.087
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:00.576
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:04.007
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:14.704
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:19.065
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:42.688
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:17:42.804
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:21:57.399
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:21:59.919
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:22:34.157
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:22:40.899
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:22:42.597
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:30:08.216
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:30:11.340
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:31:08.681
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:31:11.343
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:31:36.660
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:31:38.834
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:33:01.223
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:33:05.783
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:34:03.533
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:34:05.920
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:34:42.111
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:34:47.770
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:36:09.915
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:36:13.486
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:36:30.221
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:36:32.693
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:51:40.502
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:51:45.599
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:53:27.666
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:53:31.883
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:56:11.983
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:56:21.602
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:56:23.513
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:57:08.445
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 20:57:11.506
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:07:16.352
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:07:35.054
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:08:08.623
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:08:21.914
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:08:54.671
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:09:16.114
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:09:22.350
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:09:32.349
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:10:14.184
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:10:26.997
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:15:21.365
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:17:36.075
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:18:16.659
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:18:29.837
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:18:53.274
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:19:02.509
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:19:13.054
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:20:03.759
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:20:18.644
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:23:03.591
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:23:16.375
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:23:37.842
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:23:50.623
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:23:53.203
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:24:11.311
+!MESSAGE buffer overflow in ScopeListener 
+!STACK 0
+java.lang.IndexOutOfBoundsException: -4
+	at java.nio.HeapByteBuffer.get(HeapByteBuffer.java:139)
+	at it.baeyens.arduino.monitor.views.ScopeListener.internalExtractAndProcessScopeData(ScopeListener.java:131)
+	at it.baeyens.arduino.monitor.views.ScopeListener.message(ScopeListener.java:63)
+	at it.baeyens.arduino.arduino.Serial.notifyConsumersOfData(Serial.java:226)
+	at it.baeyens.arduino.arduino.Serial.serialEvent(Serial.java:454)
+	at jssc.SerialPort$LinuxEventThread.run(SerialPort.java:1299)
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:24:11.313
+!MESSAGE buffer overflow in ScopeListener 
+!STACK 0
+java.lang.IndexOutOfBoundsException: -3
+	at java.nio.HeapByteBuffer.get(HeapByteBuffer.java:139)
+	at it.baeyens.arduino.monitor.views.ScopeListener.internalExtractAndProcessScopeData(ScopeListener.java:131)
+	at it.baeyens.arduino.monitor.views.ScopeListener.message(ScopeListener.java:63)
+	at it.baeyens.arduino.arduino.Serial.notifyConsumersOfData(Serial.java:226)
+	at it.baeyens.arduino.arduino.Serial.serialEvent(Serial.java:454)
+	at jssc.SerialPort$LinuxEventThread.run(SerialPort.java:1299)
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:24:11.313
+!MESSAGE buffer overflow in ScopeListener 
+!STACK 0
+java.lang.IndexOutOfBoundsException: -2
+	at java.nio.HeapByteBuffer.get(HeapByteBuffer.java:139)
+	at it.baeyens.arduino.monitor.views.ScopeListener.internalExtractAndProcessScopeData(ScopeListener.java:131)
+	at it.baeyens.arduino.monitor.views.ScopeListener.message(ScopeListener.java:63)
+	at it.baeyens.arduino.arduino.Serial.notifyConsumersOfData(Serial.java:226)
+	at it.baeyens.arduino.arduino.Serial.serialEvent(Serial.java:454)
+	at jssc.SerialPort$LinuxEventThread.run(SerialPort.java:1299)
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:24:11.313
+!MESSAGE buffer overflow in ScopeListener 
+!STACK 0
+java.lang.IndexOutOfBoundsException: -1
+	at java.nio.HeapByteBuffer.get(HeapByteBuffer.java:139)
+	at it.baeyens.arduino.monitor.views.ScopeListener.internalExtractAndProcessScopeData(ScopeListener.java:131)
+	at it.baeyens.arduino.monitor.views.ScopeListener.message(ScopeListener.java:63)
+	at it.baeyens.arduino.arduino.Serial.notifyConsumersOfData(Serial.java:226)
+	at it.baeyens.arduino.arduino.Serial.serialEvent(Serial.java:454)
+	at jssc.SerialPort$LinuxEventThread.run(SerialPort.java:1299)
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:27:32.786
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:27:35.612
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:27:40.622
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:29:02.618
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:29:05.765
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:29:51.789
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:29:53.759
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:33:47.608
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:33:54.537
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:34:03.243
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:37:58.273
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:38:02.040
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:38:48.378
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:38:50.996
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:39:41.463
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:39:43.985
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:40:16.097
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:40:20.632
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:41:55.807
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:41:58.518
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:53:00.326
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:53:02.928
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:53:21.417
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:53:36.964
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:53:39.927
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:54:03.205
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:54:05.240
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:59:12.236
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:59:14.490
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 21:59:16.274
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:20:42.679
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:20:44.399
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:21:23.105
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:21:26.349
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:21:48.414
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:21:51.367
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:21:52.907
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:24:42.770
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:24:46.059
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:25:47.981
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:25:51.236
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:25:53.503
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:26:06.888
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:26:09.332
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:27:56.356
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:27:58.599
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:29:40.098
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:29:42.056
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:31:39.987
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:31:43.997
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:32:25.199
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:32:27.727
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:33:03.354
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:33:04.852
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:37:34.829
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:37:42.059
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:41:24.850
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:41:28.261
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:42:25.280
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:42:27.663
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:42:35.561
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:42:53.923
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:43:15.558
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:43:22.323
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:44:23.599
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:44:29.193
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:45:11.417
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:45:13.433
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:46:04.076
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:46:06.525
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:47:21.720
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:47:25.040
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:58:26.047
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:58:32.086
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 22:58:34.336
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:01:18.648
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:01:20.600
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:03:03.298
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:03:06.612
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:04:24.211
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:04:26.057
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:07:48.676
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:07:50.726
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:10:40.672
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:10:42.982
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:11:22.549
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:11:24.322
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:12:14.411
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:12:16.032
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:14:33.665
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:14:35.471
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:15:21.112
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:15:22.760
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:16:26.730
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-08 23:16:28.285
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-10-08 23:17:13.527
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: it.baeyens.arduino.tools.uploaders.UploadSketchWrapper$UploadJobWrapper
