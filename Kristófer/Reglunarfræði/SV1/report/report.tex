@@ -39,6 +39,7 @@
 	Innmerkið, $R(s)$, er óskgildi á vatnshæð tanksins, sem er stjórnað af okkur. Útmerkið $Y(s)$ er raungildi vatnshæðarinnar sem samanstendur af afkastagetu dælunnar og leka, sem við köllum $Q(s)$, sbr. mynd \ref{fig:blockrit}. Útmerkið $Y(s)$ er fundið með því að heilda nettó flæðið í tankinn, þ.e. flæðið inn í tankinn frá dælunni, en það verður að draga bakflæðið (lekann) frá því.
 	
 	\subsubsection{Bakflæði og dælustuðull}
+	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.7]{sys_nofeedback.jpg}
@@ -46,9 +47,7 @@
 		\label{fig:nofeedback}
 	\end{figure}
 	
-	Kerfið var skoðað án bakverkunar, sbr. mynd \ref{fig:nofeedback}, til að finna bakflæðið úr tankinum.\\ Upphaflega var óskgildið $2L$ og lækkað í $1L$ á meðan stýrispennan var stillt á $5V$.
-	
-	Við hermdum kerfið án bakverkunar og fengum þá rampmerki sem heldur áfram að vaxa út í hið óendanlega.
+	Til að finna bakflæðið úr tankinum var óskgildið $2L$ og meðan stýrispennan var stillt á $5V$ . Slökkt var á sjálfstýringunni og látið renna úr efri tankinum, bakflæðisstuðull var fundinn út frá hallatölu útmerkisins, sbr mynd \ref{fig:leki}.
 	
 
 	\begin{figure}[]
@@ -58,7 +57,7 @@
 		\label{fig:pump}
 	\end{figure}
 	
-	Til að finna dælufastann var óskgildi sett sem $1L$ og hækkað í $2L$, stýrispennan var stillt á $5V$, sbr. mynd \ref{fig:pump}.
+	Til að finna dælufastann var óskgildi sett sem $1L$ og hækkað í $2L$, stýrispennan var stillt á $5V$. Dælafastinn fæst útfrá hallatölu útmerkisins, sbr. mynd \ref{fig:pump}.
 	
 	Gögnin voru meðhöndluð með Matlab, notuð voru innbyggðu föllin polyval og polyfit til að finna bestu línu gagnanna. Bakflæðisstuðull kerfisins fengum við að væri $0.0313$, sbr. mynd \ref{fig:leki}. Stuðullinn afkastagetu dælunnar fengum við að sé $0.0584$ þegar stýrispenna er $5V$, sbr. mynd \ref{fig:pump}, sem gefur $0.0117$ fyrir hvert $V$ sem stýrispennan er.
 	
@@ -69,7 +68,7 @@
 		\label{fig:leki}
 	\end{figure}
 	
-	Við bjuggum til módel, sbr. mynd \ref{fig:blockrit}, sem hermir eftir hegðun kerfisins með mismundandi gildum á mögnunarstuðlinum Kp, sbr. mynd \ref{fig:feedback}, með og án bakverkunar. Við notuðum $Q(s) = 0.0313$ og $Kd = 0.0117$. Óskgildið var $2.5L$ og stýrispennan $5V$.
+	Við bjuggum til módel, sbr. mynd \ref{fig:blockrit}, sem hermir eftir hegðun kerfisins með mismundandi gildum á mögnunarstuðlinum Kp, sbr. mynd \ref{fig:feedback}, með og án bakverkunar. \\Kerfið var skoðað án bakverkunar og fylgst með útmerki kerfisins, sbr. mynd \ref{fig:nofeedback}. Við notuðum $Q(s) = 0.0313$ og $Kd = 0.0117$. Óskgildið var $2.5L$ og stýrispennan $5V$.
 	
 	\begin{figure}[]
 		\centering
@@ -77,6 +76,8 @@
 		\caption{Samanburður á hermdu gildum og raungildum með bakverkun}
 		\label{fig:feedback}
 	\end{figure}
+	
+	Við hermdum kerfið án bakverkunar og fengum þá rampmerki sem heldur áfram að vaxa út í hið óendanlega.
 	
 	\subsection{Seinni hluti: PI/PID Stýring}
 	\subsubsection{Val á mögnun og heildunartíma}
