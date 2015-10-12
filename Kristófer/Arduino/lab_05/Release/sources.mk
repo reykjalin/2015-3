@@ -39,5 +39,7 @@ CPP_DEPS :=
 SUBDIRS := \
 . \
 arduino/core \
+Libraries/Wire/utility \
+Libraries/Wire \
 Libraries/LiquidCrystal/src \
 

@@ -1,0 +1,27 @@
+16:22:08 **** Incremental Build of configuration Release for project lab05_servo ****
+make all 
+Building target: lab05_servo
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/2015-3/Kristófer/Arduino/lab05_servo/Release/lab05_servo.elf"
+/home/kristofer/HR/2015-3/Kristófer/Arduino/lab05_servo/Release/lab05_servo.elf  :
+section           size      addr
+.data               22   8388864
+.text             2820         0
+.bss               204   8388886
+.comment            17         0
+.debug_aranges     912         0
+.debug_info      29758         0
+.debug_abbrev     5969         0
+.debug_line       6162         0
+.debug_frame      2704         0
+.debug_str        7484         0
+.debug_loc       14522         0
+.debug_ranges      864         0
+Total            71438
+
+
+Finished building target: lab05_servo
+ 
+
+16:22:09 Build Finished (took 68ms)
+

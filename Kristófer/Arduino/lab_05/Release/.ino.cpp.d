@@ -12,7 +12,10 @@
  /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard/pins_arduino.h \
  /home/kristofer/Downloads/arduino-1.6.5-r5/libraries/LiquidCrystal/src/LiquidCrystal.h \
  /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.h \
- ../Enums.h ../lab_05.ino
+ ../Enums.h \
+ /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/Wire.h \
+ /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.h \
+ ../lab_05.ino
 
 /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Arduino.h:
 
@@ -41,5 +44,9 @@
 /home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.h:
 
 ../Enums.h:
+
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/Wire.h:
+
+/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.h:
 
 ../lab_05.ino:

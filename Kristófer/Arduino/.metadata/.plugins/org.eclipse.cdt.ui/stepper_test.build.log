@@ -1,0 +1,27 @@
+14:19:44 **** Incremental Build of configuration Release for project stepper_test ****
+make all 
+Building target: stepper_test
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf  :
+section           size      addr
+.data               80   8389120
+.text             4028         0
+.bss               214   8389200
+.comment            17         0
+.debug_aranges     696         0
+.debug_info      27824         0
+.debug_abbrev     4542         0
+.debug_line       4904         0
+.debug_frame      1996         0
+.debug_str        6875         0
+.debug_loc       12014         0
+.debug_ranges      720         0
+Total            63910
+
+
+Finished building target: stepper_test
+ 
+
+14:19:44 Build Finished (took 126ms)
+

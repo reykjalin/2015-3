@@ -1,0 +1,32 @@
+%% The default fixmes are:  \fxnote{} \fxwarning{} \fxerror{} \fxfatal{} (same as \fixme{})
+% if you want personalized fixmes, then register the authors here
+\FXRegisterAuthor{jf}{jtf}{kristofer}
+% this registers \jfnote{}, \jfwarning{}, \jferror{}, \jffatal{}
+% note the use of the two-letters 
+% The three-letters are for in a fixme environment
+
+\author{Kristófer R. Þorláksson, Róbert B. Ólafson \&\\Stefán Ó. Valdimarsson}  % My name, for the titlepage
+\title{Skilaverkefni 1}  % The title, for the titlepage
+\subtitle{Reglun vatnstanks}
+% % If you want to put the SVN revision number, use:
+% %\title{Lab Report 0\\Killer Robots\\Revision svnInfoRevision}  % The title, for the titlepage
+%\course{VT 1013 Hönnun}  % pick your class
+%\course{T-411-MECH Mechatronics 1}
+\instructor{Þorgeir Pálsson}
+%% declare the paths(s) where you graphics files can be found
+\course{T-501-REGL Reglunarfræði}
+
+\usepackage[backend=biber, bibencoding=utf8, style=ieee]{biblatex}
+% if you use style=apa, you will also need \DeclareLanguageMapping{american}{american-apa}
+% If you set backend=bibtex, it will use bibtex for processing (old way)
+% if you set backend=biber, you can use UTF8 characters such as Þ and ð but you will have to remember to switch from using bibtex to biber in your client
+% See Chapter 7 of http://afs.rnd.ru.is/project/htgaru/trunk/how-to-get-around-projects.pdf 
+\addbibresource{references.bib}
+\usepackage[final,hidelinks]{hyperref} % must be last package loaded
+
+% Change text by figures from "Figure" to "Mynd"
+\usepackage{caption}
+\captionsetup[figure]{name = Mynd}
+
+% Change title of \listoffigures to "Myndayfirlit"
+\renewcommand*\listfigurename{Myndayfirlit}

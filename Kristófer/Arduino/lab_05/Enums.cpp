@@ -14,3 +14,10 @@ void Enums::setState(State s) {
 State Enums::getState() {
 	return state;
 }
+
+void Enums::setFanState(FanState s) {
+	fanstate = s;
+}
+FanState Enums::getFanState() {
+	return fanstate;
+}

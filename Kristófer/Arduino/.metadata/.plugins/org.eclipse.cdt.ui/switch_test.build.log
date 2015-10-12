@@ -1,0 +1,44 @@
+13:30:13 **** Incremental Build of configuration Release for project switch_test ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/mega" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega2560  -o "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.elf"    ./.ino.cpp.o   arduino.ar   "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/arduino.ar" "-L/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release" -lm
+Finished building: switch_test.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.eep"
+Finished building: switch_test.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.hex"
+Finished building: switch_test.hex
+ 
+Building target: switch_test
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/switch_test/Release/switch_test.elf  :
+section           size      addr
+.data               34   8389120
+.text             3810         0
+.bss               178   8389154
+.comment            17         0
+.debug_aranges     688         0
+.debug_info      27568         0
+.debug_abbrev     4506         0
+.debug_line       4805         0
+.debug_frame      1988         0
+.debug_str        6789         0
+.debug_loc       11968         0
+.debug_ranges      688         0
+Total            63039
+
+
+Finished building target: switch_test
+ 
+
+13:30:13 Build Finished (took 430ms)
+

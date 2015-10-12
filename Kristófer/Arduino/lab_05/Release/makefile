@@ -10,6 +10,8 @@ RM := rm -rf
 -include sources.mk
 -include subdir.mk
 -include arduino/core/subdir.mk
+-include Libraries/Wire/utility/subdir.mk
+-include Libraries/Wire/subdir.mk
 -include Libraries/LiquidCrystal/src/subdir.mk
 -include objects.mk
 
