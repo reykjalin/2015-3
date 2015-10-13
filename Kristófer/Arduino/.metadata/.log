@@ -2959,3 +2959,15 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.core.jobs 2 2 2015-10-11 19:05:34.449
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: it.baeyens.arduino.tools.uploaders.UploadSketchWrapper$UploadJobWrapper
+!SESSION 2015-10-13 15:26:17.084 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-13 15:26:50.589
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
+
+!ENTRY it.baeyens.arduino.core 2 0 2015-10-13 15:26:52.832
+!MESSAGE Malformed Arduino IDE version expected X.Y.Z got 1.6.5-r5
