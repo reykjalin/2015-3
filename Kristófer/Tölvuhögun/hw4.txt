@@ -1,0 +1,66 @@
+D2:
+(a) = 5
+pushl %ebp		// stack setup
+movl %esp, %ebp		// stack setup
+
+movl 12(%ebp), %ecx	// ecx = b
+imull 8(%ebp), %ecx	// ecx = a * ecx = a * b
+movl $13, %eax		// eax = 13
+cltd			// edx:eax = 13 (sign extendað)
+idivl %ecx		// edx = 13 % ecx = 13 % (a * b)
+			// eax = 13 / ecx = 13 / (a * b)
+
+popl %ebp		// return eax
+ret			// end of function
+
+-----------------------------------------------------------------
+(b) = 3
+pushl %ebp			// stack setup
+movl %esp, %ebp			// stack setup
+
+movl 8(%ebp), %eax		// eax = a
+movl 12(%ebp), %edx		// edx = b
+
+movl %eax, %ecx			// ecx = a
+shrl $31, %ecx			// ecx = a l>> 31 = a_sign (verður eax = ecx?)
+				// a >= 0: ecx = 0
+				// a <  0: ecx = 1
+
+addl %ecx, %eax			// eax = eax + ecx = a + a_sign
+				// a >= 0: eax = a
+				// a <  0: eax = a + 1
+
+sarl %eax			// eax = eax r>> 1 = eax / 2 (arithmetic)
+				// a >= 0: eax = a / 2
+				// a <  0: eax = (a + 1) / 2 = a / 2
+				// eax = a / 2
+
+leal (%eax,%eax,2), %ecx	// ecx = eax + eax * 2 = a/2 + a
+leal (%edx,%edx,8), %eax 	// eax = edx + 8 * edx = b + 8b = 9b
+leal 3(%ecx,%eax), %eax		// eax = 3 + ecx + eax = 3 + a/2 + a + 9b
+				// eax = 3 + 3*(a/2) + 9b
+
+popl %ebp			// return eax
+ret				// end of function
+
+-----------------------------------------------------------------
+(c) = 2
+pushl %ebp		// stack setup
+movl %esp, %ebp		// stack setup
+
+movl 12(%ebp), %edx	// edx = b
+leal 3(%edx), %eax	// eax = 3 + edx = 3 + b
+testl %edx, %edx	// edx & edx = b & b
+cmovns %edx, %eax	// ef b >= 0: eax = b
+			// ef b <  0: eax = 3 + b
+
+sarl $2, %eax		// eax = eax >> 2
+			// ef b >= 0: eax = b >> 2 (arithmetic) = b / 4
+			// ef b <  0: eax = (3 + b) >> 2 (arithmetic = (3 + b) / 4
+			// ef b <  0: (3 + b) / 4 = b/4
+
+addl 8(%ebp), %eax	// eax = a + eax = a + (b / 4)
+sall $2, %eax		// eax = 4 * eax = 4 * (a + b/4)
+
+popl %ebp		// return eax
+ret			// end of function
