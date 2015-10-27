@@ -1,8 +1,18 @@
-19:05:20 **** Incremental Build of configuration Release for project master ****
+22:26:22 **** Incremental Build of configuration Release for project master ****
 make all 
 Building file: ../.ino.cpp
 Starting C++ compile
 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/libraries/LiquidCrystal" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/libraries/LiquidCrystal/src" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+In file included from ../.ino.cpp:10:0:
+../..//Libraries//Crc16//Crc16.h: In member function 'unsigned int Crc16::fastCrc(uint8_t*, uint8_t, uint16_t, uint8_t, uint8_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)':
+../..//Libraries//Crc16//Crc16.h:151:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = start; i < (start + length); i++)
+                                         ^
+In file included from ../.ino.cpp:37:0:
+../master.ino: In function 'void getModuleData()':
+../master.ino:184:54: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(crc.getCrc() == (nodeData[3] << 8) + nodeData[4]) {
+                                                      ^
 Finished building: ../.ino.cpp
  
 Starting combiner
@@ -22,23 +32,23 @@ Printing size:
 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab5/haukurh13-kristofert13-sigurduras12-stefanv13/master/Release/master.elf"
 /home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab5/haukurh13-kristofert13-sigurduras12-stefanv13/master/Release/master.elf  :
 section            size      addr
-.data               388   8388864
-.text              8596         0
-.bss                418   8389252
+.data               344   8388864
+.text             10054         0
+.bss                440   8389208
 .comment             17         0
-.debug_aranges     2136         0
-.debug_info       69221         0
-.debug_abbrev      9311         0
-.debug_line       11688         0
-.debug_frame       6536         0
-.debug_str        11446         0
-.debug_loc        36091         0
-.debug_ranges      2232         0
-Total            158080
+.debug_aranges     2240         0
+.debug_info       73743         0
+.debug_abbrev      9517         0
+.debug_line       12358         0
+.debug_frame       7056         0
+.debug_str        12047         0
+.debug_loc        38438         0
+.debug_ranges      2432         0
+Total            168686
 
 
 Finished building target: master
  
 
-19:05:20 Build Finished (took 162ms)
+22:26:22 Build Finished (took 276ms)
 

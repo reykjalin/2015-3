@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item value="/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/submit/lab5/haukurh13-kristofert13-sigurduras12-stefanv13/master" key="OUTSIDE_LOCATION"/>
+		<item value="/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C" key="OUTSIDE_LOCATION"/>
 	</section>
 	<section name="NewWizardAction">
 		<item value="it.baeyens.arduino.eclipse.NewArduinoSketchWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>

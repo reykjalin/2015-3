@@ -1,0 +1,65 @@
+#include <Wire.h>
+//#include <Arduino.h>
+
+//const int BAUD = 57600;
+#define BAUD 57600
+const int DEL_TIME = 2000;
+const int PACK_SIZE = 2;
+const uint8_t RUMBA = 8;
+
+const int sw = 0;
+const int vrx = 1;
+const int vry = 2;
+
+byte packets[PACK_SIZE];
+
+void setup()
+{
+	Serial.begin(BAUD);
+	Wire.begin();
+	pinMode(sw, INPUT);
+}
+
+void loop()
+{
+/****** Second transmission test, incl analog stick ******/
+	int sw_val = digitalRead(sw);
+	int vrx_val = analogRead(vrx);
+	int vry_val = analogRead(vry);
+
+	Serial.print("** Begin transmission of: "); Serial.print(i); Serial.println(" **");
+	Wire.beginTransmission(RUMBA);
+
+	packets[0] = (i >> 8) & 0xff;
+	packets[1] = i & 0xff;
+
+	Wire.write(packets, PACK_SIZE);
+	Wire.endTransmission();
+	Serial.println("** End of transmission **");
+	delay(DEL_TIME);
+
+
+	Serial.println("==============================");
+	Serial.print("sw = "); Serial.println(sw_val);
+	Serial.print("vrx = "); Serial.println(vrx_val);
+	Serial.print("vry = "); Serial.println(vry_val);
+	Serial.println("==============================");
+	delay(300);
+/****** Second transmission test, incl analog stick ******/
+
+
+/****** First transmission test ******/
+//	for (int i = 0; i < 3; i++) {
+//		Serial.print("** Begin transmission of: "); Serial.print(i); Serial.println(" **");
+//		Wire.beginTransmission(RUMBA);
+//
+//		packets[0] = (i >> 8) & 0xff;
+//		packets[1] = i & 0xff;
+//
+//		Wire.write(packets, PACK_SIZE);
+//		Wire.endTransmission();
+//		Serial.println("** End of transmission **");
+//		delay(DEL_TIME);
+//	}
+/****** First transmission test ******/
+}

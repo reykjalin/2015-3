@@ -1,0 +1,27 @@
+17:06:09 **** Incremental Build of configuration Release for project RUMBA_I2C ****
+make all 
+Building target: RUMBA_I2C
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/RUMBA_I2C/Release/RUMBA_I2C.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/RUMBA_I2C/Release/RUMBA_I2C.elf  :
+section           size      addr
+.data              162   8389120
+.text             5350         0
+.bss               421   8389282
+.comment            17         0
+.debug_aranges    1040         0
+.debug_info      38423         0
+.debug_abbrev     6533         0
+.debug_line       6799         0
+.debug_frame      2756         0
+.debug_str        8791         0
+.debug_loc       15055         0
+.debug_ranges     1032         0
+Total            86379
+
+
+Finished building target: RUMBA_I2C
+ 
+
+17:06:09 Build Finished (took 62ms)
+

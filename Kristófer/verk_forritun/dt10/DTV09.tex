@@ -1,0 +1,169 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[icelandic]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+%\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{ {myndir/} }
+\usepackage[T1]{fontenc} 
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc} 
+\usepackage{graphics}
+%\usepackage[pdftex]{graphicx}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[top=2in, bottom=1.5in, left=1in, right=1in]{geometry}
+
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Verkfræðileg Forritun - H2015}
+\lhead{Háskólinn í Reykjavík}
+\chead{DT - 10}
+\rfoot{Page \thepage}
+
+
+
+\begin{document}
+
+
+\section*{Verkefni 1: Klasinn DoubleArray}
+Þið eigið að búa til klasann DoubleArray og notast við aðskilda þýðingu. Klasinn á að vera ADT, þ.e. breytur og annað er private, fyrir utan þau föll sem eiga að vera sýnileg utan klasans. Klasinn á að innihalda eftirfarandi atriði:
+\begin{itemize}
+	\item Kvikt fylki sem geymir double tölur
+	\item Stærð fylkis
+	\item Búa til færibreytulausan smið sem upphafsstillir stærð fylkisins sem 0 og fylkið sjálft sem NULL
+	\item Smið sem tekur færibreytur fyrir stærð og gildi. Smiðurinn býr til þá stærð af kviku fylki og setur gildið í hvert einasta stak í fylkinu
+	\item Destructor sem skilar öllu minni
+	\item Fall sem reiknar meðaltal stakanna í fylkinu
+	\[
+	 	\bar{x} = \frac{\sum{x}}{n}
+	\]
+	\item Fall sem reiknar staðalfrávik stakanna í fylkinu
+	\[
+	 	\sigma = \sqrt{\frac{\sum\left(x - \bar{x}\right)^2}{n - 1}}
+	\]
+	\item operator$+$ sem leggur saman meðaltöl tveggja DoubleArray hluta
+	\item operator$>$ sem ber saman meðaltöl tveggja DoubleArray hluta
+	\item operator$<<$ sem prentar út fjölda staka, meðaltal og staðalfrávik
+	\item operator$>>$ sem tekur við fjölda staka og les svo inn hvert stak
+\end{itemize}
+Klasinn á að virka með eftirfarandi main falli (athugið að output þarf ekki endilega að hafa nákvæmlega sama fjölda aukastafa og sýnt er hér):
+
+\begin{lstlisting}[language=C++, caption = Example]
+	int main() {
+    	DoubleArray DA1, DA2(5, 3.7);
+    	cin >> DA1;
+    	cout << "DA1: " << DA1 << endl;
+    	cout << "DA2: " << DA2 << endl;
+    	
+    	cin >> DA2;
+    	cout << "DA1 + DA2 = " << DA1 + DA2 << endl;
+    	
+    	if (DA1 > DA2) {
+    		cout << "DA1 has the highest average!" << endl;
+    	} else {
+    		cout << "DA2 has the highest average!" << endl;
+    	}
+    	
+    	return 0;
+    }
+
+    Output:
+    	Array length: 3
+    	4 7 1
+    	DA1: n = 3, mean = 4, stddev = 2.45
+    	DA2: n = 5, mean = 3.7, stddev = 0
+    	1.4 2.7 8.9
+    	DA1 + DA2 = 8.3333
+    	DA2 has the highest average!
+\end{lstlisting}
+
+\section*{Verkfni 2: Tengdur listi}
+Nú eigið þið að gera eintengdann lista af heiltölum. Notið structið Node til að geyma gögnin.
+
+\begin{lstlisting}[language=C++, caption = Example]
+	struct Node {
+		int data;
+		Node* next;
+	};
+\end{lstlisting}
+
+Skrifið forrit sem:
+\begin{itemize}
+	\item Tekur inn n fjölda af tölum og býr til listann
+	\item Prentar út listann
+	\item Sækir aftasta stakið í listanum
+	\item Athugar hvort tala sem notandi slær inn sé til staðar í listanum
+\end{itemize}
+
+Forritið á að hafa eftirfarandi föll:
+\begin{itemize}
+	\item Fall sem býr til nýtt Node
+	\item Fall sem bætir Node við listann
+	\item Fall sem prentar út öll stök í listanum
+	\item Fall sem athugar hvort einhver tala sé til í listanum
+	\item Fall sem finnur síðasta stak í listanum
+	\item Fall sem skilar öllu minni
+\end{itemize}
+
+\begin{lstlisting}[language=C++, caption=Dæmi um input og output]
+	Input:
+		8
+		1 5 3 4 6 4 2 6
+		7
+	Output:
+		Data in list: 1 5 3 4 6 4 2 6
+		Data in back: 1
+		The number 7 is not in the list
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}[language=C++, caption=Dæmi um input og output]
+	Input:
+		4
+		1 5 6 1
+		5
+	Output:
+		Data in list: 1 5 6 1
+		Data in back: 1
+		The number 5 is in the list
+		
+\end{lstlisting}
+
+\end{document}

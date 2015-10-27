@@ -1,0 +1,39 @@
+Version 1.3.5
+	-Updated 12.10.15
+	-By : davidj11@ru.is
+Changes	
+	1) Bug fix : Transfer function for G_c had an character error
+	2) Name of start simulation button changed: Start Simulation -> Start
+
+Version 1.3.4
+	-Updated 11.10.15
+	-By : davidj11@ru.is
+
+Changes: 
+	1) The root locus used closed loop poles, changed to open loop
+	2) Changed dialogue question box value : Magnification to K-Gain
+	3) Nichols used closed loop poles, changed to onlu open loop.
+	4) Grid on for figures
+	5) Added bode possibility for main figure
+	6) Fixed transfer function output, powers were wrong
+	7) Added fix for Linux vs PC, thanks to kristofert13@ru.is
+
+
+*****************************************************************
+Version 1.3.3 
+	-Updated 10.10.15
+	-By : davidj11@ru.is
+
+Changes: 
+	1) From now on the poles will be put in correctly, i.e
+	-1, -2 etc. not 1 2, as before.
+	
+	2) Removed Inverse laplace computation. <- Error[Fixed]
+	3) Changed label for plotting figures from "Draw figure" to "Start simulation"
+	4) Moved locations of poles and zeros
+	5) Removed power 1 from the transfer function value and removed additional ones
+	6) Added value k to block buttons
+	7) Changed block F to polynomial possibility
+	8) Blocks now have memory of last input
+	9) Added Pole-Zero map to simulation possibilities
+	10) Fixed pole zero display	

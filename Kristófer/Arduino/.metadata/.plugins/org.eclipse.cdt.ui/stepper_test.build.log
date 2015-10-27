@@ -1,27 +1,44 @@
-14:19:44 **** Incremental Build of configuration Release for project stepper_test ****
+13:07:38 **** Incremental Build of configuration Release for project stepper_test ****
 make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/mega" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega2560  -o "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf"    ./.ino.cpp.o   arduino.ar   "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/arduino.ar" "-L/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release" -lm
+Finished building: stepper_test.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.eep"
+Finished building: stepper_test.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.hex"
+Finished building: stepper_test.hex
+ 
 Building target: stepper_test
 Printing size:
 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf"
 /home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/stepper_test/Release/stepper_test.elf  :
 section           size      addr
 .data               80   8389120
-.text             4028         0
+.text             4048         0
 .bss               214   8389200
 .comment            17         0
 .debug_aranges     696         0
-.debug_info      27824         0
-.debug_abbrev     4542         0
-.debug_line       4904         0
-.debug_frame      1996         0
-.debug_str        6875         0
-.debug_loc       12014         0
+.debug_info      27887         0
+.debug_abbrev     4533         0
+.debug_line       4915         0
+.debug_frame      2008         0
+.debug_str        6903         0
+.debug_loc       12097         0
 .debug_ranges      720         0
-Total            63910
+Total            64118
 
 
 Finished building target: stepper_test
  
 
-14:19:44 Build Finished (took 126ms)
+13:07:39 Build Finished (took 168ms)
 

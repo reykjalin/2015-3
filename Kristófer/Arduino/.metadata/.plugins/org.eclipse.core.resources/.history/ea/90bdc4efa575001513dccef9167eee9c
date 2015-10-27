@@ -1,0 +1,46 @@
+#include <Wire.h>
+
+
+const int BAUD = 9600;
+const uint8_t ID = 8;
+const int PACK_SIZE = 5;
+
+byte packets[PACK_SIZE];
+
+void setup()
+{
+	Serial.begin(9600);
+	Serial.println("**** Setup start ****");
+	Serial.println("\t Serial coms connected.");
+	Wire.begin(ID);
+	Serial.println("\t Wire connected.");
+
+	//Wire.onRequest(requestEvent);
+	Wire.onReceive(receiveEvent);
+}
+
+
+void loop()
+{
+	Serial.println("** In loop **");
+	delay(500);
+	Serial.println("** Loop done **");
+}
+
+void requestEvent() {
+	// What happens on request
+}
+
+void receiveEvent(int nrBytes) {
+	// What happens on receive
+	int recData[2];
+	if(nrBytes == 2) {
+		for(int i = 0; i < nrBytes; i++){
+			recData[i] = Wire.read();
+		}
+
+		Serial.println("**** Received ****");
+		Serial.println((recData[0] << 8) + recData[1]);
+		Serial.println("**** Done ****");
+	}
+}

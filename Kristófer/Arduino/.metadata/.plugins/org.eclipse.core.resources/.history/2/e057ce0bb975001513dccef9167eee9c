@@ -1,0 +1,113 @@
+#include <Wire.h>
+
+/********** Structs **********/
+/********** Structs **********/
+struct Arm {
+	int motor_step_pin;
+	int motor_dir_pin;
+	int motor_enable_pin;
+	int limit_switch_pin;
+};
+/********** Constants **********/
+//const int BAUD = 57600;
+#define BAUD 57600
+const uint8_t ID = 8;
+const int PACK_SIZE = 5;
+
+const int AN_LOW = 490;
+const int AN_HIGH = 530;
+/********** Constants **********/
+
+/********** Variables **********/
+byte packets[PACK_SIZE];
+int recData[PACK_SIZE];
+int recSignal;
+
+Arm arms[6];
+/********** Variables **********/
+
+void setup()
+{
+	Serial.begin(57600);
+	Serial.println("**** Setup start ****");
+	Wire.begin(ID);
+	Serial.println("\t Wire connected.");
+
+	//Wire.onRequest(requestEvent);
+	Wire.onReceive(receiveEvent);
+
+	Serial.println("\t Motors initializing...");
+	arms[0].motor_step_pin=17;
+	arms[0].motor_dir_pin=16;
+	arms[0].motor_enable_pin=48;
+	arms[0].limit_switch_pin=37;
+
+	arms[1].motor_step_pin=54;
+	arms[1].motor_dir_pin=47;
+	arms[1].motor_enable_pin=55;
+	arms[1].limit_switch_pin=36;
+
+	arms[2].motor_step_pin=57;
+	arms[2].motor_dir_pin=56;
+	arms[2].motor_enable_pin=62;
+	arms[2].limit_switch_pin=35;
+
+	arms[3].motor_step_pin=23;
+	arms[3].motor_dir_pin=22;
+	arms[3].motor_enable_pin=27;
+	arms[3].limit_switch_pin=34;
+
+	arms[4].motor_step_pin=26;
+	arms[4].motor_dir_pin=25;
+	arms[4].motor_enable_pin=24;
+	arms[4].limit_switch_pin=33;
+
+	arms[5].motor_step_pin=29;
+	arms[5].motor_dir_pin=28;
+	arms[5].motor_enable_pin=39;
+	arms[5].limit_switch_pin=32;
+
+	int i;
+	for(i=0;i<6;++i) {
+		pinMode(arms[i].motor_step_pin,OUTPUT);
+		pinMode(arms[i].motor_dir_pin,OUTPUT);
+		pinMode(arms[i].motor_enable_pin,OUTPUT);
+		pinMode(arms[i].limit_switch_pin,INPUT);
+		digitalWrite(arms[i].motor_enable_pin,LOW);
+		digitalWrite(arms[i].limit_switch_pin,HIGH);
+	}
+
+	Serial.println("**** Ready ****");
+}
+
+
+void loop()
+{
+	if(recSignal < AN_LOW) {
+		// Move left
+	}
+
+	if(recSignal < AN_HIGH) {
+		// Move right
+	}
+
+	delay(150);
+}
+
+void requestEvent() {
+	// What happens on request
+}
+
+void receiveEvent(int nrBytes) {
+	// What happens on receive
+	if(nrBytes == PACK_SIZE) {
+		for(int i = 0; i < nrBytes; i++){
+			recData[i] = Wire.read();
+		}
+		recSignal = (recData[0] << 8) + recData[1];
+
+		Serial.println("**** Received ****");
+		Serial.println(recSignal);
+		Serial.println("**** Done ****");
+	}
+}
