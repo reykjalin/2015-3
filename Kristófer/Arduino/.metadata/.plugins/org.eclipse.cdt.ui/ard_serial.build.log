@@ -1,0 +1,27 @@
+14:16:45 **** Incremental Build of configuration Release for project ard_serial ****
+make all 
+Building target: ard_serial
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_serial/Release/ard_serial.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_serial/Release/ard_serial.elf  :
+section            size      addr
+.data                72   8388864
+.text              3568         0
+.bss                176   8388936
+.comment             17         0
+.debug_aranges     1320         0
+.debug_info       44908         0
+.debug_abbrev      5517         0
+.debug_line        7061         0
+.debug_frame       4396         0
+.debug_str         7330         0
+.debug_loc        25369         0
+.debug_ranges      1400         0
+Total            101134
+
+
+Finished building target: ard_serial
+ 
+
+14:16:45 Build Finished (took 64ms)
+

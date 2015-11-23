@@ -1,0 +1,11 @@
+
+#define BAUD 57600;
+
+void setup()
+{
+	Serial.begin(BAUD);
+}
+
+void loop()
+{
+}

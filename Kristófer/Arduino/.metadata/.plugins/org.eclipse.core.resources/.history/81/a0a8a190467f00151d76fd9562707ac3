@@ -1,0 +1,128 @@
+#include <Wire.h>
+//#include <Arduino.h>
+
+//const int BAUD = 57600;
+#define BAUD 57600
+const int DEL_TIME = 1;
+const int PACK_SIZE = 6;
+const uint8_t RUMBA = 8;
+
+/****** Original comms test ******/
+//const int sw = 0;
+//const int vrx = 1;
+//const int vry = 2;
+//
+//byte packets[PACK_SIZE];
+//uint8_t motornr;
+//int sw_val, lastsw;
+//int vrx_val;
+//int vry_val;
+/****** Original comms test ******/
+
+byte packets[PACK_SIZE];
+int counter;
+String cmd;
+uint8_t x, y, z, u, v, w;
+
+
+void setup()
+{
+	Serial.begin(BAUD);
+	Wire.begin();
+//	pinMode(sw, INPUT);
+//	motornr = 0;
+	counter = 0;
+	x = 0; y = 0; z = 0;
+	u = 0; v = 0;
+	w = 0;
+}
+
+void loop()
+{
+
+/****** Gcode transmission test ******/
+	if(counter == 0) {
+		String zeropos = "G28;", setup = "G00 F2050";
+	} else if(counter == 1) {
+		cmd = "G00 X0 Y0 Z0 U0 V0 W0";
+	} else if(counter == 2) {
+		cmd = "G00 X0 Y0 Z0 U0 V0 W0";
+	} else if(counter == 3) {
+		cmd = "G00 X0 Y0 Z0 U0 V0 W0";
+	} else if(counter == 4) {
+		cmd = "G00 X0 Y0 Z0 U0 V0 W0";
+	}
+
+	counter++;
+	if(counter >= 4) {
+		counter = 1;
+	}
+/****** Gcode transmission test ******/
+
+
+/****** Second transmission test, incl analog stick ******/
+//	int sw_val = digitalRead(sw);
+//	int vrx_val = analogRead(vrx);
+//	int vry_val = analogRead(vry);
+//
+//	if(sw_val != lastsw && lastsw == 0) {
+//		motornr++;
+//		if(motornr == 6) {
+//			motornr = 0;
+//		}
+//	}
+//	lastsw = sw_val;
+//
+//	Serial.print("** Begin transmission of: "); Serial.print(vrx_val); Serial.println(" **");
+//	Wire.beginTransmission(RUMBA);
+//
+//	packets[0] = (vrx_val >> 8) & 0xff;
+//	packets[1] = vrx_val & 0xff;
+//	packets[2] = motornr;
+//
+//	Wire.write(packets, PACK_SIZE);
+//	Wire.endTransmission();
+//	Serial.println("** End of transmission **");
+//
+//	Serial.println("==============================");
+//	Serial.print("sw = "); Serial.println(sw_val);
+//	Serial.print("vrx = "); Serial.println(vrx_val);
+//	Serial.print("vry = "); Serial.println(vry_val);
+//	Serial.print("mnr = "); Serial.println(motornr);
+//	Serial.println("==============================");
+//
+//	delay(DEL_TIME);
+/****** Second transmission test, incl analog stick ******/
+
+
+/****** First transmission test ******/
+//	for (int i = 0; i < 3; i++) {
+//		Serial.print("** Begin transmission of: "); Serial.print(i); Serial.println(" **");
+//		Wire.beginTransmission(RUMBA);
+//
+//		packets[0] = (i >> 8) & 0xff;
+//		packets[1] = i & 0xff;
+//
+//		Wire.write(packets, PACK_SIZE);
+//		Wire.endTransmission();
+//		Serial.println("** End of transmission **");
+//		delay(DEL_TIME);
+//	}
+/****** First transmission test ******/
+}
+
+void sendCmd() {
+	Serial.print("** Begin transmission of: "); Serial.print(cmd); Serial.println(" **");
+	Wire.beginTransmission(RUMBA);
+
+	packets[0] = x;
+	packets[1] = y;
+	packets[2] = z;
+	packets[3] = u;
+	packets[4] = v;
+	packets[5] = w;
+
+	Wire.write(packets, PACK_SIZE);
+	Wire.endTransmission();
+	Serial.println("** End of transmission **");
+}

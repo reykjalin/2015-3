@@ -1,0 +1,121 @@
+17:50:09 **** Incremental Build of configuration Release for project firmware_rumba ****
+make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/mega" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/EEPROM" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+In file included from ../.ino.cpp:78:0:
+../flash.ino: In function 'void EEPROM_writeLong(int, long int)':
+../flash.ino:17:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < sizeof(value); i++)
+                                   ^
+../flash.ino: In function 'long int EEPROM_readLong(int)':
+../flash.ino:27:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < sizeof(value); i++)
+                                   ^
+../flash.ino: In function 'void EEPROM_writeFloat(int, float)':
+../flash.ino:37:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < sizeof(value); i++)
+                                   ^
+../flash.ino: In function 'float EEPROM_readFloat(int)':
+../flash.ino:47:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < sizeof(value); i++)
+                                   ^
+In file included from ../.ino.cpp:79:0:
+../hexapod.ino: In function 'char hexapod_read_switches()':
+../hexapod.ino:356:35: warning: array subscript has type 'char' [-Wchar-subscripts]
+     state=digitalRead(robot.arms[i].limit_switch_pin);
+                                   ^
+../hexapod.ino:361:20: warning: array subscript has type 'char' [-Wchar-subscripts]
+     if(robot.arms[i].limit_switch_state != state) {
+                    ^
+../hexapod.ino:362:19: warning: array subscript has type 'char' [-Wchar-subscripts]
+       robot.arms[i].limit_switch_state = state;
+                   ^
+../hexapod.ino: In function 'void robot_find_home()':
+../hexapod.ino:411:22: warning: array subscript has type 'char' [-Wchar-subscripts]
+       if(robot.arms[i].limit_switch_state == HIGH) {
+                      ^
+../hexapod.ino: In function 'void robot_where()':
+../hexapod.ino:519:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("X",offset.x);
+                      ^
+../hexapod.ino:520:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("Y",offset.y);
+                      ^
+../hexapod.ino:521:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("Z",offset.z);
+                      ^
+../hexapod.ino:522:24: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("U",robot.ee.r);
+                        ^
+../hexapod.ino:523:24: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("V",robot.ee.p);
+                        ^
+../hexapod.ino:524:24: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("W",robot.ee.y);
+                        ^
+../hexapod.ino:525:23: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("F",feed_rate);
+                       ^
+../hexapod.ino:526:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("A",acceleration);
+                          ^
+In file included from ../.ino.cpp:80:0:
+../motor.ino: In function 'void motor_where()':
+../motor.ino:120:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("0",robot.arms[0].new_step);
+                                    ^
+../motor.ino:121:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("1",robot.arms[1].new_step);
+                                    ^
+../motor.ino:122:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("2",robot.arms[2].new_step);
+                                    ^
+../motor.ino:123:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("3",robot.arms[3].new_step);
+                                    ^
+../motor.ino:124:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("4",robot.arms[4].new_step);
+                                    ^
+../motor.ino:125:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   output("5",robot.arms[5].new_step);
+                                    ^
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega2560  -o "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.elf"    ./.ino.cpp.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o   arduino.ar   "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/arduino.ar" "-L/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release" -lm
+Finished building: firmware_rumba.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.eep"
+Finished building: firmware_rumba.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.hex"
+Finished building: firmware_rumba.hex
+ 
+Building target: firmware_rumba
+Printing size:
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.elf"
+/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/firmware_rumba/Release/firmware_rumba.elf  :
+section            size      addr
+.data               114   8389120
+.text             31702         0
+.bss               4245   8389234
+.comment             17         0
+.debug_aranges     1472         0
+.debug_info       61859         0
+.debug_abbrev      7878         0
+.debug_line       11468         0
+.debug_frame       6024         0
+.debug_str        13500         0
+.debug_loc        39840         0
+.debug_ranges      2072         0
+Total            180191
+
+
+Finished building target: firmware_rumba
+ 
+
+17:50:12 Build Finished (took 2s.379ms)
+

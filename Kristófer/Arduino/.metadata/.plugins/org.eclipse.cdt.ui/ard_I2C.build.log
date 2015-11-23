@@ -1,27 +1,44 @@
-18:15:25 **** Incremental Build of configuration Release for project ard_I2C ****
+00:35:24 **** Incremental Build of configuration Release for project ard_I2C ****
 make all 
+Building file: ../.ino.cpp
+Starting C++ compile
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -MMD -MP -MF".ino.cpp.d" -MT".ino.cpp.o" -D__IN_ECLIPSE__=1 -x c++ "../.ino.cpp"  -o  ".ino.cpp.o"   -Wall
+Finished building: ../.ino.cpp
+ 
+Starting combiner
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -Os -Wl,--gc-sections -mmcu=atmega328p  -o "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.elf"    ./.ino.cpp.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o   arduino.ar   "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/arduino.ar" "-L/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release" -lm
+Finished building: ard_I2C.elf
+ 
+Create eeprom image
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.eep"
+Finished building: ard_I2C.eep
+ 
+Create Flash image (ihex format)
+"/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.elf" "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.hex"
+Finished building: ard_I2C.hex
+ 
 Building target: ard_I2C
 Printing size:
 "/home/kristofer/Downloads/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-size" -A "/home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.elf"
 /home/kristofer/HR/non-git/Mechatronics/t-411-mech-2015/group/TiltIt/RUMBA_tests/com_test/ard_I2C/Release/ard_I2C.elf  :
-section           size      addr
-.data              162   8388864
-.text             4566         0
-.bss               364   8389026
-.comment            17         0
-.debug_aranges    1064         0
-.debug_info      38280         0
-.debug_abbrev     6788         0
-.debug_line       7129         0
-.debug_frame      2800         0
-.debug_str        8556         0
-.debug_loc       15139         0
-.debug_ranges     1040         0
-Total            85905
+section            size      addr
+.data               108   8388864
+.text              5746         0
+.bss                388   8388972
+.comment             17         0
+.debug_aranges     1712         0
+.debug_info       56874         0
+.debug_abbrev      7837         0
+.debug_line        9442         0
+.debug_frame       5304         0
+.debug_str         9404         0
+.debug_loc        30181         0
+.debug_ranges      1768         0
+Total            128781
 
 
 Finished building target: ard_I2C
  
 
-18:15:25 Build Finished (took 72ms)
+00:35:25 Build Finished (took 117ms)
 

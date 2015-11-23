@@ -411,17 +411,17 @@ Disassembly of section .text:
  8048bc8:	89 44 24 0c          	mov    %eax,0xc(%esp)
  8048bcc:	8d 44 24 1c          	lea    0x1c(%esp),%eax
  8048bd0:	89 44 24 08          	mov    %eax,0x8(%esp)
- 8048bd4:	c7 44 24 04 d1 a5 04 	movl   $0x804a5d1,0x4(%esp)
+ 8048bd4:	c7 44 24 04 d1 a5 04 	movl   $0x804a5d1,0x4(%esp)		// $0x804a5d1 = "%d %d" = 37
  8048bdb:	08 
- 8048bdc:	8b 44 24 30          	mov    0x30(%esp),%eax
- 8048be0:	89 04 24             	mov    %eax,(%esp)
+ 8048bdc:	8b 44 24 30          	mov    0x30(%esp),%eax			// input -> eax
+ 8048be0:	89 04 24             	mov    %eax,(%esp)				// esp = input
  8048be3:	e8 68 fc ff ff       	call   8048850 <__isoc99_sscanf@plt>
  8048be8:	83 f8 01             	cmp    $0x1,%eax
  8048beb:	7f 05                	jg     8048bf2 <phase_3+0x31>
  8048bed:	e8 03 06 00 00       	call   80491f5 <explode_bomb>
- 8048bf2:	83 7c 24 1c 07       	cmpl   $0x7,0x1c(%esp)
+ 8048bf2:	83 7c 24 1c 07       	cmpl   $0x7,0x1c(%esp)			// 1c(%esp) = fyrri tala í input
  8048bf7:	77 3c                	ja     8048c35 <phase_3+0x74>
- 8048bf9:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048bf9:	8b 44 24 1c          	mov    0x1c(%esp),%eax			// eax = fyrri input
  8048bfd:	ff 24 85 c0 a2 04 08 	jmp    *0x804a2c0(,%eax,4)
  8048c04:	b8 be 02 00 00       	mov    $0x2be,%eax
  8048c09:	eb 3b                	jmp    8048c46 <phase_3+0x85>
@@ -453,14 +453,14 @@ Disassembly of section .text:
  8048c57:	53                   	push   %ebx
  8048c58:	83 ec 10             	sub    $0x10,%esp
  8048c5b:	8b 5c 24 20          	mov    0x20(%esp),%ebx
- 8048c5f:	8b 74 24 24          	mov    0x24(%esp),%esi
+ 8048c5f:	8b 74 24 24          	mov    0x24(%esp),%esi		// esi = seinna input
  8048c63:	85 db                	test   %ebx,%ebx
  8048c65:	7e 2c                	jle    8048c93 <func4+0x3e>
  8048c67:	89 f0                	mov    %esi,%eax
  8048c69:	83 fb 01             	cmp    $0x1,%ebx
  8048c6c:	74 2a                	je     8048c98 <func4+0x43>
- 8048c6e:	89 74 24 04          	mov    %esi,0x4(%esp)
- 8048c72:	8d 43 ff             	lea    -0x1(%ebx),%eax
+ 8048c6e:	89 74 24 04          	mov    %esi,0x4(%esp)		// 4(esp) = seinna input
+ 8048c72:	8d 43 ff             	lea    -0x1(%ebx),%eax		// eax = 6
  8048c75:	89 04 24             	mov    %eax,(%esp)
  8048c78:	e8 d8 ff ff ff       	call   8048c55 <func4>
  8048c7d:	8d 3c 30             	lea    (%eax,%esi,1),%edi
@@ -468,7 +468,7 @@ Disassembly of section .text:
  8048c84:	83 eb 02             	sub    $0x2,%ebx
  8048c87:	89 1c 24             	mov    %ebx,(%esp)
  8048c8a:	e8 c6 ff ff ff       	call   8048c55 <func4>
- 8048c8f:	01 f8                	add    %edi,%eax
+ 8048c8f:	01 f8                	add    %edi,%eax			// eax = 2*seinni?
  8048c91:	eb 05                	jmp    8048c98 <func4+0x43>
  8048c93:	b8 00 00 00 00       	mov    $0x0,%eax
  8048c98:	83 c4 10             	add    $0x10,%esp
@@ -483,19 +483,19 @@ Disassembly of section .text:
  8048ca6:	89 44 24 0c          	mov    %eax,0xc(%esp)
  8048caa:	8d 44 24 18          	lea    0x18(%esp),%eax
  8048cae:	89 44 24 08          	mov    %eax,0x8(%esp)
- 8048cb2:	c7 44 24 04 d1 a5 04 	movl   $0x804a5d1,0x4(%esp)
+ 8048cb2:	c7 44 24 04 d1 a5 04 	movl   $0x804a5d1,0x4(%esp)	 // 4(esp) = "%d %d"
  8048cb9:	08 
- 8048cba:	8b 44 24 30          	mov    0x30(%esp),%eax
+ 8048cba:	8b 44 24 30          	mov    0x30(%esp),%eax		// eax = input
  8048cbe:	89 04 24             	mov    %eax,(%esp)
  8048cc1:	e8 8a fb ff ff       	call   8048850 <__isoc99_sscanf@plt>
  8048cc6:	83 f8 02             	cmp    $0x2,%eax
  8048cc9:	75 0c                	jne    8048cd7 <phase_4+0x38>
- 8048ccb:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048ccb:	8b 44 24 1c          	mov    0x1c(%esp),%eax		// eax = seinna input
  8048ccf:	83 e8 02             	sub    $0x2,%eax
  8048cd2:	83 f8 02             	cmp    $0x2,%eax
  8048cd5:	76 05                	jbe    8048cdc <phase_4+0x3d>
  8048cd7:	e8 19 05 00 00       	call   80491f5 <explode_bomb>
- 8048cdc:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048cdc:	8b 44 24 1c          	mov    0x1c(%esp),%eax		// eax = seinna input
  8048ce0:	89 44 24 04          	mov    %eax,0x4(%esp)
  8048ce4:	c7 04 24 07 00 00 00 	movl   $0x7,(%esp)
  8048ceb:	e8 65 ff ff ff       	call   8048c55 <func4>
@@ -508,7 +508,7 @@ Disassembly of section .text:
 08048cff <phase_5>:
  8048cff:	53                   	push   %ebx
  8048d00:	83 ec 18             	sub    $0x18,%esp
- 8048d03:	8b 5c 24 20          	mov    0x20(%esp),%ebx
+ 8048d03:	8b 5c 24 20          	mov    0x20(%esp),%ebx 			// ebx = input
  8048d07:	89 1c 24             	mov    %ebx,(%esp)
  8048d0a:	e8 2c 02 00 00       	call   8048f3b <string_length>
  8048d0f:	83 f8 06             	cmp    $0x6,%eax
@@ -516,9 +516,9 @@ Disassembly of section .text:
  8048d14:	e8 dc 04 00 00       	call   80491f5 <explode_bomb>
  8048d19:	ba 00 00 00 00       	mov    $0x0,%edx
  8048d1e:	b8 00 00 00 00       	mov    $0x0,%eax
- 8048d23:	0f b6 0c 03          	movzbl (%ebx,%eax,1),%ecx
- 8048d27:	83 e1 0f             	and    $0xf,%ecx
- 8048d2a:	03 14 8d e0 a2 04 08 	add    0x804a2e0(,%ecx,4),%edx
+ 8048d23:	0f b6 0c 03          	movzbl (%ebx,%eax,1),%ecx		// ecx = fyrsti stafur
+ 8048d27:	83 e1 0f             	and    $0xf,%ecx				// ecx = aftasti ascii
+ 8048d2a:	03 14 8d e0 a2 04 08 	add    0x804a2e0(,%ecx,4),%edx 	// edx = 0x10 = '\n'
  8048d31:	83 c0 01             	add    $0x1,%eax
  8048d34:	83 f8 06             	cmp    $0x6,%eax
  8048d37:	75 ea                	jne    8048d23 <phase_5+0x24>
@@ -539,7 +539,7 @@ Disassembly of section .text:
  8048d59:	89 04 24             	mov    %eax,(%esp)
  8048d5c:	e8 d3 04 00 00       	call   8049234 <read_six_numbers>
  8048d61:	be 00 00 00 00       	mov    $0x0,%esi
- 8048d66:	8b 44 b4 28          	mov    0x28(%esp,%esi,4),%eax
+ 8048d66:	8b 44 b4 28          	mov    0x28(%esp,%esi,4),%eax 	// eax = fyrsta tala
  8048d6a:	83 e8 01             	sub    $0x1,%eax
  8048d6d:	83 f8 05             	cmp    $0x5,%eax
  8048d70:	76 05                	jbe    8048d77 <phase_6+0x2f>
@@ -549,9 +549,9 @@ Disassembly of section .text:
  8048d7d:	75 07                	jne    8048d86 <phase_6+0x3e>
  8048d7f:	bb 00 00 00 00       	mov    $0x0,%ebx
  8048d84:	eb 39                	jmp    8048dbf <phase_6+0x77>
- 8048d86:	89 f3                	mov    %esi,%ebx
- 8048d88:	8b 44 9c 28          	mov    0x28(%esp,%ebx,4),%eax
- 8048d8c:	39 44 b4 24          	cmp    %eax,0x24(%esp,%esi,4)
+ 8048d86:	89 f3                	mov    %esi,%ebx 				// tölur mega ekki vera þær sömu
+ 8048d88:	8b 44 9c 28          	mov    0x28(%esp,%ebx,4),%eax 	// eax = önnur tala
+ 8048d8c:	39 44 b4 24          	cmp    %eax,0x24(%esp,%esi,4)	// 24(esp,esi,4) = fyrsta tala
  8048d90:	75 05                	jne    8048d97 <phase_6+0x4f>
  8048d92:	e8 5e 04 00 00       	call   80491f5 <explode_bomb>
  8048d97:	83 c3 01             	add    $0x1,%ebx
@@ -559,31 +559,31 @@ Disassembly of section .text:
  8048d9d:	7e e9                	jle    8048d88 <phase_6+0x40>
  8048d9f:	90                   	nop
  8048da0:	eb c4                	jmp    8048d66 <phase_6+0x1e>
- 8048da2:	8b 52 08             	mov    0x8(%edx),%edx
+ 8048da2:	8b 52 08             	mov    0x8(%edx),%edx 			// edx = 
  8048da5:	83 c0 01             	add    $0x1,%eax
  8048da8:	39 c8                	cmp    %ecx,%eax
  8048daa:	75 f6                	jne    8048da2 <phase_6+0x5a>
  8048dac:	eb 05                	jmp    8048db3 <phase_6+0x6b>
  8048dae:	ba 54 c1 04 08       	mov    $0x804c154,%edx
- 8048db3:	89 54 b4 10          	mov    %edx,0x10(%esp,%esi,4)
+ 8048db3:	89 54 b4 10          	mov    %edx,0x10(%esp,%esi,4)	// edx = node6
  8048db7:	83 c3 01             	add    $0x1,%ebx
  8048dba:	83 fb 06             	cmp    $0x6,%ebx
  8048dbd:	74 17                	je     8048dd6 <phase_6+0x8e>
  8048dbf:	89 de                	mov    %ebx,%esi
- 8048dc1:	8b 4c 9c 28          	mov    0x28(%esp,%ebx,4),%ecx
- 8048dc5:	83 f9 01             	cmp    $0x1,%ecx
+ 8048dc1:	8b 4c 9c 28          	mov    0x28(%esp,%ebx,4),%ecx	// ecx = tala 1
+ 8048dc5:	83 f9 01             	cmp    $0x1,%ecx				//eax teljari
  8048dc8:	7e e4                	jle    8048dae <phase_6+0x66>
  8048dca:	b8 01 00 00 00       	mov    $0x1,%eax
  8048dcf:	ba 54 c1 04 08       	mov    $0x804c154,%edx
  8048dd4:	eb cc                	jmp    8048da2 <phase_6+0x5a>
- 8048dd6:	8b 5c 24 10          	mov    0x10(%esp),%ebx
- 8048dda:	8d 44 24 14          	lea    0x14(%esp),%eax
- 8048dde:	8d 74 24 28          	lea    0x28(%esp),%esi
- 8048de2:	89 d9                	mov    %ebx,%ecx
- 8048de4:	8b 10                	mov    (%eax),%edx
- 8048de6:	89 51 08             	mov    %edx,0x8(%ecx)
- 8048de9:	83 c0 04             	add    $0x4,%eax
- 8048dec:	39 f0                	cmp    %esi,%eax
+ 8048dd6:	8b 5c 24 10          	mov    0x10(%esp),%ebx 			// ebx = node6
+ 8048dda:	8d 44 24 14          	lea    0x14(%esp),%eax			// eax = node2
+ 8048dde:	8d 74 24 28          	lea    0x28(%esp),%esi			// esi = input
+ 8048de2:	89 d9                	mov    %ebx,%ecx				// ecx = node6
+ 8048de4:	8b 10                	mov    (%eax),%edx 				// edx = node2
+ 8048de6:	89 51 08             	mov    %edx,0x8(%ecx)			// node6->node2
+ 8048de9:	83 c0 04             	add    $0x4,%eax				// eax = node3 node4 node5 node1 6 2
+ 8048dec:	39 f0                	cmp    %esi,%eax				// smíðar listann minn í lykkju hér og upp
  8048dee:	74 04                	je     8048df4 <phase_6+0xac>
  8048df0:	89 d1                	mov    %edx,%ecx
  8048df2:	eb f0                	jmp    8048de4 <phase_6+0x9c>
@@ -605,22 +605,22 @@ Disassembly of section .text:
 08048e1c <fun7>:
  8048e1c:	53                   	push   %ebx
  8048e1d:	83 ec 18             	sub    $0x18,%esp
- 8048e20:	8b 54 24 20          	mov    0x20(%esp),%edx
- 8048e24:	8b 4c 24 24          	mov    0x24(%esp),%ecx
- 8048e28:	85 d2                	test   %edx,%edx
- 8048e2a:	74 37                	je     8048e63 <fun7+0x47>
- 8048e2c:	8b 1a                	mov    (%edx),%ebx
- 8048e2e:	39 cb                	cmp    %ecx,%ebx
- 8048e30:	7e 13                	jle    8048e45 <fun7+0x29>
- 8048e32:	89 4c 24 04          	mov    %ecx,0x4(%esp)
- 8048e36:	8b 42 04             	mov    0x4(%edx),%eax
- 8048e39:	89 04 24             	mov    %eax,(%esp)
+ 8048e20:	8b 54 24 20          	mov    0x20(%esp),%edx 			// edx = 110 = 0x6e
+ 8048e24:	8b 4c 24 24          	mov    0x24(%esp),%ecx			// ecx = input
+ 8048e28:	85 d2                	test   %edx,%edx 
+ 8048e2a:	74 37                	je     8048e63 <fun7+0x47>		// vill ekki taka þetta jump
+ 8048e2c:	8b 1a                	mov    (%edx),%ebx 				// ebx = 0x16e
+ 8048e2e:	39 cb                	cmp    %ecx,%ebx 				// fyrsta tala 
+ 8048e30:	7e 13                	jle    8048e45 <fun7+0x29>		// vill taka þetta jump
+ 8048e32:	89 4c 24 04          	mov    %ecx,0x4(%esp) 			// input sett á stack
+ 8048e36:	8b 42 04             	mov    0x4(%edx),%eax 			// eax = 4+edx
+ 8048e39:	89 04 24             	mov    %eax,(%esp)				// 4+edx sett á stackinn
  8048e3c:	e8 db ff ff ff       	call   8048e1c <fun7>
  8048e41:	01 c0                	add    %eax,%eax
- 8048e43:	eb 23                	jmp    8048e68 <fun7+0x4c>
- 8048e45:	b8 00 00 00 00       	mov    $0x0,%eax
- 8048e4a:	39 cb                	cmp    %ecx,%ebx
- 8048e4c:	74 1a                	je     8048e68 <fun7+0x4c>
+ 8048e43:	eb 23                	jmp    8048e68 <fun7+0x4c>		// vill ekki taka þetta jump
+ 8048e45:	b8 00 00 00 00       	mov    $0x0,%eax				// eax = 0
+ 8048e4a:	39 cb                	cmp    %ecx,%ebx 				// ebx borið saman við input
+ 8048e4c:	74 1a                	je     8048e68 <fun7+0x4c> 		// vill ekki taka þetta jump
  8048e4e:	89 4c 24 04          	mov    %ecx,0x4(%esp)
  8048e52:	8b 42 08             	mov    0x8(%edx),%eax
  8048e55:	89 04 24             	mov    %eax,(%esp)
@@ -635,14 +635,14 @@ Disassembly of section .text:
 08048e6d <secret_phase>:
  8048e6d:	83 ec 1c             	sub    $0x1c,%esp
  8048e70:	e8 0f 04 00 00       	call   8049284 <read_line>
- 8048e75:	c7 44 24 08 0a 00 00 	movl   $0xa,0x8(%esp)
+ 8048e75:	c7 44 24 08 0a 00 00 	movl   $0xa,0x8(%esp)	// 8+esp = a
  8048e7c:	00 
- 8048e7d:	c7 44 24 04 00 00 00 	movl   $0x0,0x4(%esp)
+ 8048e7d:	c7 44 24 04 00 00 00 	movl   $0x0,0x4(%esp)	// 4+esp = 0
  8048e84:	00 
- 8048e85:	89 04 24             	mov    %eax,(%esp)
- 8048e88:	e8 23 fa ff ff       	call   80488b0 <strtol@plt>
+ 8048e85:	89 04 24             	mov    %eax,(%esp)		// eax = input
+ 8048e88:	e8 23 fa ff ff       	call   80488b0 <strtol@plt> // sækir fyrstu tölu og setur í eax
  8048e8d:	89 44 24 04          	mov    %eax,0x4(%esp)
- 8048e91:	c7 04 24 a0 c0 04 08 	movl   $0x804c0a0,(%esp)
+ 8048e91:	c7 04 24 a0 c0 04 08 	movl   $0x804c0a0,(%esp) // esp = 110 = 0x6e, input int?
  8048e98:	e8 7f ff ff ff       	call   8048e1c <fun7>
  8048e9d:	83 f8 05             	cmp    $0x5,%eax
  8048ea0:	74 05                	je     8048ea7 <secret_phase+0x3a>

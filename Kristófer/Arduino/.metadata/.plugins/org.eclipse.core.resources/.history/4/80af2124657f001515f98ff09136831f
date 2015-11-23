@@ -1,0 +1,85 @@
+//This is a automatic generated file
+//Please do not modify this file
+//If you touch this file your change will be overwritten during the next build
+//This file has been generated on 2015-10-31 00:17:56
+
+#include "Arduino.h"
+#include "configuration.h"
+#include "vector3.h"
+#include "segment.h"
+#include "hexapod.h"
+#include "Wire.h"
+#include "configuration.h"
+#include <EEPROM.h>
+#include "configuration.h"
+#include "hexapod.h"
+#include "segment.h"
+#include "configuration.h"
+#include "segment.h"
+float atan3(float dy,float dx) ;
+void pause(long us) ;
+float feedrate(float nfr) ;
+void help() ;
+void setup() ;
+void loop() ;
+void receiveEvent(int nrBytes) ;
+void EEPROM_writeLong(int ee, long value) ;
+long EEPROM_readLong(int ee) ;
+void EEPROM_writeFloat(int ee, float value) ;
+float EEPROM_readFloat(int ee) ;
+void loadConfig() ;
+void saveAdjustments() ;
+void saveUID() ;
+void hexapod_setup() ;
+void hexapod_build_shoulders() ;
+void update_ik(Vector3 &mov,Vector3 &rpy) ;
+void hexapod_update_endeffector(Vector3 &mov,Vector3 &rpy) ;
+void hexapod_update_wrists() ;
+void hexapod_update_shoulder_angles() ;
+void robot_line(float newx,float newy,float newz,float newu,float newv,float neww,float new_feed_rate) ;
+void robot_position(float npx,float npy,float npz,float npu,float npv,float npw) ;
+char hexapod_read_switches() ;
+void hexapod_onestep(int motor,int dir) ;
+void robot_find_home() ;
+void robot_arc(float cx,float cy,float x,float y,float z,float dir,float new_feed_rate) ;
+void robot_tool_offset(int axis,float x,float y,float z) ;
+Vector3 robot_get_end_plus_offset() ;
+void robot_tool_change(int tool_id) ;
+void robot_where() ;
+void motor_setup() ;
+void motor_segment(float new_feed_rate) ;
+void motor_enable() ;
+void motor_disable() ;
+void motor_where() ;
+float parsenumber(char code,float val) ;
+void output(char *code,float val) ;
+void outputvector(Vector3 &v,char*name) ;
+void parser_processCommand() ;
+void i2c_parse(int x, int y, int z, int u, int v, int w) ;
+void parser_ready() ;
+void parser_listen() ;
+void parser_listen_copy(String rec) ;
+void wait_for_segment_buffer_to_empty() ;
+char segment_buffer_full() ;
+FORCE_INLINE int get_next_segment(int i) ;
+FORCE_INLINE int get_prev_segment(int i) ;
+float max_speed_allowed(float acceleration, float target_velocity, float distance) ;
+void segment_setup() ;
+void recalculate_reverse2(Segment *prev,Segment *current,Segment *next) ;
+void recalculate_reverse() ;
+void recalculate_forward2(Segment *prev,Segment *current,Segment *next) ;
+void recalculate_forward() ;
+int intersection_time(float acceleration,float distance,float start_speed,float end_speed) ;
+void segment_update_trapezoid(Segment *s,float start_speed,float end_speed) ;
+void recalculate_trapezoids() ;
+void recalculate_acceleration() ;
+FORCE_INLINE unsigned short calc_timer(long desired_freq_hz) ;
+void motor_prepare_segment(int n0,int n1,int n2,int n3,int n4,int n5,float new_feed_rate) ;
+
+#include "firmware_rumba.ino"
+
+#include "flash.ino"
+#include "hexapod.ino"
+#include "motor.ino"
+#include "parser.ino"
+#include "segment.ino"
