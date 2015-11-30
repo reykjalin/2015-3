@@ -64,6 +64,7 @@ if isAllNum(inplist):
     print("min = {}".format(np.min(inplist)))
     print("max = {}".format(np.max(inplist)))
     print("average = {}".format(np.average(inplist)))
+    print("median = {}".format(np.median(inplist)))
     print("stddev = {}".format(stddev(inplist)))
 else:
     # Change to lowercase, and use set to find unique words
