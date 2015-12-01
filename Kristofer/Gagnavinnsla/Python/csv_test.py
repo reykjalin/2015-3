@@ -7,12 +7,12 @@ with open('data.csv', newline = '') as csvfile:
     for row in csvr:
         csvlist.append(row)
 
-# Remove unnecessary lines
-csvlist.remove(csvlist[1])      # Empty line, thus removed
-title = csvlist[0]              # Title of data
+# Remove unnecessary lines, store headers and title
 headers = csvlist[1]            # Data headers
 csvlist.remove(csvlist[0])
-csvlist.remove(csvlist[0])
+
+# Sort csv list here so icelandic letters won't fuck everything up
+csvlist.sort()
 
 # Create lists with school names, subject types and subjects
 schlist = []
@@ -68,3 +68,20 @@ for i in range(len(keylist)):
     csvdict[keylist[i]] = datalist[i]
 # for i in keylist:
 #     print(csvdict[i])
+
+# Testing wether the data is handled correctly
+# print(' '.join(csvlist[0]))
+# print(' '.join(keylist[0]), ' '.join(csvdict[keylist[0]]))
+# for i in range(23):
+#     print(keylist[i])
+# for i in range(len(keylist)):
+#     test = ' '.join(keylist[i]) + ' ' + ' '.join(csvdict[keylist[i]])
+#     # print('--------')
+#     # print(test)
+#     # print(' '.join(csvlist[i]))
+#     if test != ' '.join(csvlist[i]):
+#         print('--------')
+#         print("Key nr. {}".format(i))
+#         print(test)
+#         print(' '.join(csvlist[i]))
+#         print("Not the same")
