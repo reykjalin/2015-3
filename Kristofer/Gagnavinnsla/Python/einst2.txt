@@ -1,0 +1,57 @@
+gavi=> \c
+You are now connected to database "gavi" as user "kristofer".
+gavi=> \conninfo
+You are connected to database "gavi" as user "kristofer" via socket in "/var/run/postgresql" at port "5432".
+gavi=> \d
+           List of relations
+ Schema |   Name    | Type  |   Owner   
+--------+-----------+-------+-----------
+ public | bars      | table | kristofer
+ public | beers     | table | kristofer
+ public | drinkers  | table | kristofer
+ public | frequents | table | kristofer
+ public | likes     | table | kristofer
+ public | sells     | table | kristofer
+(6 rows)
+
+gavi=> \d drinkers
+           Table "public.drinkers"
+ Column |          Type          | Modifiers 
+--------+------------------------+-----------
+ name   | character varying(250) | not null
+ addr   | character varying(250) | 
+ phone  | character(12)          | 
+Indexes:
+    "drinkers_pkey" PRIMARY KEY, btree (name)
+Referenced by:
+    TABLE "frequents" CONSTRAINT "frequents_drinker_fkey" FOREIGN KEY (drinker) REFERENCES drinkers(name)
+    TABLE "likes" CONSTRAINT "likes_drinker_fkey" FOREIGN KEY (drinker) REFERENCES drinkers(name)
+
+gavi=> select * from sells where price > 12.95;
+               bar                |                     beer                      | price 
+----------------------------------+-----------------------------------------------+-------
+ The Oak and Crosier              | Raspberry Tart                                | 12.99
+ The King and Queen Tavern        | La Fin Du Monde                               | 12.96
+ Tavern of Time                   | Péché Mortel                                  | 12.97
+ The Whippet Inn                  | AleSmith Speedway Stout - Kopi Luwak          |    13
+ McGinty's                        | Great                                         | 12.98
+ Meibeyer's                       | Founders CBS Imperial Stout                   | 12.99
+ Meibeyer's                       | St. Bernardus Abt 12                          |    13
+ Midnight Bell                    | La Fin Du Monde                               | 12.98
+ Pedro McKinnon                   | PseudoSue                                     | 12.96
+ The Krusty Krab                  | Bourbon Barrel Aged Vanilla Bean Dark Lord    | 12.98
+ The Feathers                     | Heady Topper                                  | 12.96
+ Louie's                          | Schneider Weisse Tap 6 Unser Aventinus        | 12.96
+ Cocktails and Dreams             | Weihenstephaner Hefeweissbier                 | 12.96
+ The Lock,                        | Sculpin IPA                                   | 12.98
+ Maxwell's Nightclub (Metropolis) | Lagunitas Sucks (Brown Shugga Substitute Ale) |    13
+ The Queen Victoria               | Bourbon County Brand Stout                    | 12.96
+ The Pilgrim's Rest               | Stone Enjoy By IPA                            |    13
+ Bo Ling Chop Suey Palace         | Fundamental Observation                       | 12.99
+(18 rows)
+
+gavi=> select count(name) from bars;
+ count 
+-------
+   287
+(1 row)
